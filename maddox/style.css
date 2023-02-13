@@ -8,11 +8,12 @@ body {
 }
 
 header {
-  max-width: 500px;
+  max-width: 400px;
   margin: 0 auto;
   background-color: #ffffff;
   color: white;
   padding: 10px;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
