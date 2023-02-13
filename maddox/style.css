@@ -8,8 +8,6 @@ body {
 }
 
 header {
-  max-width: 55%;
-  margin: 0 auto;
   background-color: #ffffff;
   color: white;
   padding: 20px;
@@ -19,7 +17,7 @@ header {
 }
 
 main {
-  max-width: 55%;
+  max-width: 500px;
   margin: 0 auto;
   padding: 20px;
 }
