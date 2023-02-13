@@ -8,6 +8,8 @@ body {
 }
 
 header {
+  max-width: 55%;
+  margin: 0 auto;
   background-color: #ffffff;
   color: white;
   padding: 20px;
