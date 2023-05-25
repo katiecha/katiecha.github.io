@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Spline+Sans:wght@400;500;600;700&display=swap');
+
+body{
+    background-color:aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h1{
+    color: black;
+    font-family: "Arvo", sans-serif;
+    font-size: 24;
+}
+
+h2{
+    color: black;
+    font-family: "Arvo", sans-serif;
+    font-size: 14;
+    ;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12;
+}
+
+a:link{
+    color:blue;
+}
+
+a:visited{
+    color:red;
+}
+
+#vestalvirgin img{
+    background-color:antiquewhite;
+    padding: 20px;
+    border-style: groove;
+    border-width: 3px;
+    border-color:black;
+    position: absolute; top: 75px; left: 1000px;
+}
