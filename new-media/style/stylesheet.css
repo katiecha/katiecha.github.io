@@ -28,7 +28,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color:rgb(0, 64, 120);
   }
   
 li {
@@ -44,8 +44,9 @@ li a {
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: rgb(0, 39, 72);
 }
+
 
 #vestalvirgin img{
     background-color:antiquewhite;
