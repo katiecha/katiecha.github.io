@@ -8,6 +8,12 @@ h1 {
     color: black;
     font-family: "Arvo", sans-serif;
     font-size: 24;
+    text-align: center;
+}
+
+img {
+    max-width: 50%;
+    max-height: 50%;
 }
 
 h2 {
