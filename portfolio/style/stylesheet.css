@@ -379,8 +379,7 @@ img {
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --text: #e5e5e5;
-        --text2: black;
+        --text: white;
         --accent: #62C6F2;
         --accent2: white;
         --bg-main: #181818;
@@ -457,6 +456,7 @@ input {
     border: 2px solid var(--accent);
     color: var(--text);
     text-align: center;
+    border-color: -internal-light-dark(white, white);
 }
 
 .repos {
