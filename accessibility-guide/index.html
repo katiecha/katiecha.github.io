@@ -7,15 +7,6 @@
         <link rel="stylesheet" type="text/css" href="style/stylesheet.css">
     </head>
 
-    <style>
-        body {
-            background-image: url('images/Curb-Cut-Effect.png');
-            background-repeat: no-repeat;
-            background-attachment: fixed;  
-            background-size: cover;
-        }
-    </style>
-
     <body>
         <ul>
             <li><a class="active" href="index.html">Home</a></li>
@@ -24,10 +15,56 @@
             <li><a href="about.html">About</a></li>
           </ul>
 
-        <p style="background-image: url('images/istockphoto-1178111613-612x612.jpg')"; class="quote">When we design for disabilities, we make things better for everyone.</p>
-        <p style="background-image: url('images/istockphoto-1178111613-612x612.jpg')"; class="explain">This site explores some basic accessibility practies for web development!</p>
-        <p style="background-image: url('images/istockphoto-1178111613-612x612.jpg')"; class="email">Feel free to reach out for edits and additions: <a href="mailto: katiechai21@icloud.com">katiechai21@icloud.com</a>.</p>
+        <span><div class="tactile-background"></div></span>
+        <p class="quote">When we design for disabilities, we make things better for everyone.</p>
+        <p class="explain">This site explores some basic accessibility practies for web development!</p>
+        <p class="email">Feel free to reach out for edits and additions: <a href="mailto: katiechai21@icloud.com">katiechai21@icloud.com</a>.</p>
+        <span>
+        <p class="hover-text">Hover over me for more information about this visual.</p>
+        </span>
 
+        <div class="hidden">
+            ℹ️ This yellow block is an illustration of tactile pavement.<br>
+            Tactile pavement originated in Japan. The paving blocks assist individuals with visual impairments.
+            <br><br>
+            <img src="images/tactile-pavement.jpeg" alt="tactile pavement in front of a staircase"
+                width="300"
+            >
+        </div>
+
+        <div class="code-background-1">
+            <div class="code-text">
+                <h1 class="myH1">Headings &#128187;</h1>
+                <h2 class="myH2">Headings are help screen readers navigate through a site.</h2>
+                <code>
+                    &lt;h1&gt;&lt;/h1&gt;<br>
+                    &lt;h2&gt;&lt;/h2&gt;<br>
+                    &lt;h3&gt;&lt;/h3&gt;<br>
+                    &lt;h4&gt;&lt;/h4&gt;<br>
+                    &lt;h5&gt;&lt;/h5&gt;<br>
+                </code>
+            </div>
+        </div>
+
+        <div class="code-background-2">
+            <div class="code-text">
+                <h1 class="myH1">Alt Text &#128187;</h1>
+                <h2 class="myH2">Alt text can be used with screen readers for people with visual impairments.</h2>
+                <code>
+                    &lt;img src="IMAGE PATH HERE" alt="Description of image"&gt;
+                </code>
+            </div>
+        </div>
+
+        <div class="code-background-3">
+            <div class="code-text">
+                <h1 class="myH1">Declare the Language &#128187;</h1>
+                <h2 class="myH2">Declaring the language at the top of your document can help</h2>
+                <code>
+                    &lt;html lang="en"&gt;
+                </code>
+            </div>
+        </div>
 
     </body>
 
