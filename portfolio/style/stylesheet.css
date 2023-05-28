@@ -31,8 +31,7 @@ img {
 .nav div.logo {
     float: left;
     width: auto;
-    height: auto;
-    padding-left: 3rem;
+    height: auto; 
 }
 
 .nav div.logo a {
@@ -92,8 +91,6 @@ img {
 .home {
     width: 100%;
     height: 100vh;
-    background-position: center top;
-	background-size:cover;
 }
 
 .navTrigger {
@@ -105,28 +102,6 @@ img {
     padding-bottom: 20px;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
-}
-
-.affix {
-    padding: 0;
-    background-color: #111;
-}
-
-.myH2 {
-	text-align:center;
-	font-size: 4rem;
-}
-.myP {
-	text-align: justify;
-	padding-left:15%;
-	padding-right:15%;
-	font-size: 20px;
-}
-.myp {
-	text-align: center;
-	padding-left:15%;
-	padding-right:15%;
-	font-size: 20px;
 }
 
 @media all and (max-width:700px){
@@ -375,159 +350,30 @@ img {
     }
 }
 
-/* !!! Projects !!!*/
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --text: white;
-        --accent: #62C6F2;
-        --accent2: white;
-        --bg-main: #181818;
-        --bg-repo: #181818;
-    }
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 90%;
-    max-width: 1280px;
-}
-
-.hide {
-    /* '!important' is to make sure that when we add the class using JS, it takes precendence */
-    display: none !important;
-}
-
-h1 {
-    color: var(--accent);
-    margin-bottom: 4px;
-}
-
-small {
-    width: 100%;
-    text-align: center;
-    display: block;
-    margin-bottom: 20px;
-}
-
-h2 {
-    width: 100%;
-    text-align: center;
-    color: var(--text);
-    margin: 0;
-}
-
-a {
-    color: var(--accent);
-    text-decoration: none;
-}
-
-a:hover {
-    color: var(--text);
-}
-
-.github-img {
-    width: 45px;
-    margin-right: 8px;
-}
-
-ul {
-    list-style: none;
+.affix {
     padding: 0;
+    background-color: #111;
 }
 
-.filter-repos,
-input {
-    background: var(--bg-user);
-    width: 50%;
-    border-radius: 20px;
-    min-width: 300px;
-    margin-top: 1em;
-    padding: 1em;
-    margin-bottom: 1em;
-    border: 2px solid var(--accent);
-    color: var(--text);
-    text-align: center;
-    border-color: -internal-light-dark(white, white);
+.myH2 {
+	text-align:center;
+	font-size: 4rem;
+}
+.myP {
+	text-align: justify;
+	padding-left:15%;
+	padding-right:15%;
+	font-size: 20px;
+}
+.myp {
+	text-align: center;
+	padding-left:15%;
+	padding-right:15%;
+	font-size: 20px;
 }
 
-.repos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: var(--bg-repo);
-    margin-top: 0;
-    padding: 2em;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    margin-bottom: 4em;
-}
-
-h3 {
-    margin: 4px;
-    width: 100%;
-    text-align: center;
-    color: var(--accent);
-}
-
-.repo-list {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.repo-list li {
-    width: 100%;
-    min-height: 180px;
-    border-radius: 10px;
-    margin: 1em 0;
-    border: 1px solid var(--accent);
-    padding: 1em;
-    text-align: center;
-    background-color: var(--bg-user);
-}
-
-.link-btn {
-    padding: 10px 20px;
-    background: var(--bg-main);
-    border-radius: 30px;
-    border: 2px solid var(--accent);
-    color: var(--text);
-}
-
-.link-btn:hover {
-    background: var(--accent);
-    border: 2px solid var(--text2);
-    transform: scale(1.1);
-}
-
-.repo-list p {
-    padding: 0em 0.5em;
-    margin: 0.5em 0;
-}
-
-@media (min-width: 700px) {
-    .repo-list {
-        justify-content: space-between;
-    }
-
-    .repo-list li {
-        width: 48%;
-    }
-}
-
-@media (min-width: 1200px) {
-    .repo-list li {
-        width: 30%;
-    }
+@media all and (max-width:700px){
+	.myP {
+		padding:2%;
+	}
 }
