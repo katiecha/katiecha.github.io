@@ -32,10 +32,8 @@
 
         <section class="start"></section>
 
-        <div style="height: 100px">
-            <h2 class="myH2">Hello, 🌎. I'm Katie.</h2>
-            <p class="myp">I'm a <strong><span style="color: #62C6F2">designer</span></strong> && <strong><span style="color: #62C6F2">programmer</span></strong> passionate about <strong><span style="color: #62C6F2">accessible</span></strong> design driven by <strong><span style="color: #62C6F2">data</span></strong>.</p>
-
+        <div class="typing" style="height: 100px">
+            <h2>Hello, 🌎. I'm Katie<br>I'm a <span class ="auto-type"></span></h2>
         </div>
 
         <section class="home"></section>
@@ -59,5 +57,15 @@
                     $('.nav').removeClass('affix');
                 }
             });
+        </script>
+
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed(".auto-type", {
+                strings: ["programmer", "designer", "researcher", "student"],
+                typeSpeed: 150,
+                backSpeed: 100,
+                loop: true
+            })
         </script>
     </body>
