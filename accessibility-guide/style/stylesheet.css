@@ -60,13 +60,9 @@ li a:hover {
 }
 
 /* Images */
-#images img {
-    background-color:antiquewhite;
-    padding: 20px;
-    border-style: groove;
-    border-width: 3px;
+#headshot img {
+    padding: 10px;
     border-color:black;
-    position: absolute; top: 75px; left: 900px;
 }
 
 /* Home */
