@@ -3,29 +3,32 @@
 body {
     background-color: #181818;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
     font-size: 24px;
     color: white;
 }
 
 h1 {
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 24px;
+    font-family: Arvo, sans-serif;
+    font-weight: 500;
+    font-size: 44px;
 }
 
 h2 {
     color: white;
-    font-family: "Arvo", sans-serif;
-    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
 }
 
 p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
     font-size: 24px;
 }
 
 /* Navbar */
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -111,7 +114,7 @@ li a:hover {
     width: 800px;
 }
 
-.tactile-background {
+.yellow-tactile-background {
     position: absolute; top: 200px; left: 315px;
     background-color: #ebcf72;
     width: 900px;
@@ -137,7 +140,7 @@ span:hover + div {
 }
 
 .code-background-1 {
-    position: absolute; top: 1110px; left: 323px;
+    position: absolute; top: 1110px; left: 315px;
     color: black;
     background-color: #ebcf72;
     width: 900px;
@@ -146,7 +149,7 @@ span:hover + div {
 }
 
 .code-background-2 {
-    position: absolute; top: 1500px; left: 323px;
+    position: absolute; top: 1500px; left: 315px;
     color: black;
     background-color: #ebcf72;
     width: 900px;
@@ -155,7 +158,7 @@ span:hover + div {
 }
 
 .code-background-3 {
-    position: absolute; top: 1790px; left: 323px;
+    position: absolute; top: 1790px; left: 315px;
     color: black;
     background-color: #ebcf72;
     width: 900px;
@@ -164,15 +167,22 @@ span:hover + div {
 }
 
 .code-text {
-    position: absolute; top: 30px; left: 50px;
+    position: absolute; top: 15px; left: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .myH1 {
     color: black;
+    background-color: #f0cc52;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 500;
-    font-size: 44px;
+    font-size: 24px;
+    padding: 25px;
+    border-style: solid;
+    border-color: #caa93f;
+    border-width: 5px;
+    border-radius: 30px;
+    width: 800px;
 }
 
 .myH2 {
@@ -187,5 +197,25 @@ code {
 }
 
 /* Resources */
+.grey-tactile-background {
+    position: absolute; top: 200px; left: 315px;
+    background-color: #787878;
+    width: 900px;
+    height: 475px;
+    border-radius: 10px;
+}
+
+.citations-text {
+    position: absolute; top: 15px; left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.wc ul {
+    list-style-type: none;
+}
+  
+.wc a {
+    text-decoration: none;
+}
 
 /* About */
