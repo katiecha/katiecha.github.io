@@ -15,9 +15,9 @@
           </ul>
 
         <span><div class="yellow-tactile-background"></div></span>
-        <p class="quote">When we design for disabilities, we make things better for everyone.</p>
+        <p class="quote">"When we design for disabilities, we make things better for everyone."</p>
         <p class="explain">This site explores some basic accessibility practies for web development!</p>
-        <p class="email">Feel free to reach out for edits and additions: 💌 <a href="mailto: katiechai21@icloud.com">katiechai21@icloud.com</a>.</p>
+        <p class="email">Feel free to reach out for edits and additions 💌 <a href="mailto: katiechai21@icloud.com">katiechai21@icloud.com</a>.</p>
         <span>
         <p class="hover-text">Hover over me for more information about this visual.</p>
         </span>
@@ -34,13 +34,16 @@
         <div class="code-background-1">
             <div class="code-text">
                 <h1 class="myH1">Headings &#128187;</h1>
-                <h2 class="myH2">Headings are help screen readers navigate through a site.</h2>
+                <h2 class="myH2">Headings are help screen readers navigate through a site.<br>
+                    Use these to structure your site so readers can easily skim through.
+                </h2>
                 <code>
-                    &lt;h1&gt;&lt;/h1&gt;<br>
-                    &lt;h2&gt;&lt;/h2&gt;<br>
-                    &lt;h3&gt;&lt;/h3&gt;<br>
-                    &lt;h4&gt;&lt;/h4&gt;<br>
-                    &lt;h5&gt;&lt;/h5&gt;<br>
+                    &lt;h1&gt;Header 1&lt;/h1&gt;<br>
+                    &lt;h2&gt;Header 2&lt;/h2&gt;<br>
+                    &lt;h3&gt;Header 3&lt;/h3&gt;<br>
+                    &lt;h4&gt;Header 4&lt;/h4&gt;<br>
+                    &lt;h5&gt;Header 5&lt;/h5&gt;<br>
+                    &lt;h6&gt;Header 6&lt;/h6&gt;<br>
                 </code>
             </div>
         </div>
@@ -48,7 +51,7 @@
         <div class="code-background-2">
             <div class="code-text">
                 <h1 class="myH1">Alt Text &#128187;</h1>
-                <h2 class="myH2">Alt text can be used with screen readers for people with visual impairments.</h2>
+                <h2 class="myH2">Alt text can also be used with screen readers for people with visual impairments.</h2>
                 <code>
                     &lt;img src="IMAGE PATH HERE" alt="Description of image"&gt;
                 </code>
@@ -57,14 +60,58 @@
 
         <div class="code-background-3">
             <div class="code-text">
-                <h1 class="myH1">Declare the Language &#128187;</h1>
-                <h2 class="myH2">Declaring the language at the top of your document can help</h2>
-                <code>
-                    &lt;html lang="en"&gt;
-                </code>
+                <h1 class="myH1">Focus Indicators &#128187;</h1>
+                <h2 class="myH2">Focus indicators allow users to navigate the site without using a mouse.<br>
+                    By pressing tab - using a piece of assistive technology - you can highlight every actionable item on a website.
+                </h2>
+                <h2 class="myH2">These indicators will appear on most sites by default. Make sure you don't hide them.</h2>
             </div>
         </div>
 
-    </body>
+        <div class="code-background-4">
+            <div class="code-text">
+                <h1 class="myH1">Color Contrast &#128187;</h1>
+                <h2 class="myH2">Poor color contrast can make your site inaccessible for people with color blindness.<br>
+                    An example of a potentially problematic color palette would be using green and red to indicate positive and negavtive features.
+                </h2>
+                <h2 class="myH2">Use this online <a href="https://webaim.org/resources/contrastchecker/">tool</a> to check your color palette.</h2>
+            </div>
+        </div>
 
+        <div class="code-background-5">
+            <div class="code-text">
+                <h1 class="myH1">Descriptive Links in URLs &#128187;</h1>
+                <h2 class="myH2">By providing descriptive links for your URLs, users can gather addiitonal context that will allow them to navigate your site with ease.<br>
+                    Try to see if your links would make sense out of context. If they don't, try to add more info.
+                </h2>
+            </div>
+        </div>
+
+        <div class="code-background-6">
+            <div class="code-text">
+                <h1 class="myH1">Font Choice &#128187;</h1>
+                <h2 class="myH2">Use a sans serif font that allows readers to easily distinguish between letters.</h2>
+                <h2 class="myH2">Here is a short list of dyslexia-friendly fonts: Arial, Helvetica, Comic Sans, Calibri, Dyslexie.<br>
+                    Generally, dsyslexia-friendly fonts are give each letter a unique shape that prevent letter flipping.
+                </h2>
+            </div>
+        </div>
+
+        <div class="code-background-7">
+            <div class="code-text">
+                <h1 class="myH1">Clickable Action Size and Spacing &#128187;</h1>
+                <h2 class="myH2">Make clickable items large so users with limited mobility can easily select.<br>
+                    Space these items out so they do not overlap either.
+                </h2>
+            </div>
+        </div>
+
+        <div class="code-background-8">
+            <div class="code-text">
+                <h1 class="myH1">Hashtag Formatting &#128187;</h1>
+                <h2 class="myH2">When using a hashtag, use CamelCase to help out screen readers.</h2>  
+                <h2 class="myH2">Here's an example: #HelloWorld.</h2>  
+            </div>
+        </div>
+    </body>
 </html>

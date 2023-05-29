@@ -142,27 +142,72 @@ span:hover + div {
 .code-background-1 {
     position: absolute; top: 1110px; left: 315px;
     color: black;
-    background-color: #ebcf72;
+    background-color: #949494;
     width: 900px;
-    height: 375px;
+    height: 415px;
     border-radius: 10px;
 }
 
 .code-background-2 {
-    position: absolute; top: 1500px; left: 315px;
+    position: absolute; top: 1540px; left: 315px;
     color: black;
-    background-color: #ebcf72;
+    background-color: #949494;
     width: 900px;
-    height: 275px;
+    height: 250px;
     border-radius: 10px;
 }
 
 .code-background-3 {
-    position: absolute; top: 1790px; left: 315px;
+    position: absolute; top: 1805px; left: 315px;
     color: black;
-    background-color: #ebcf72;
+    background-color: #949494;
     width: 900px;
-    height: 375px;
+    height: 310px;
+    border-radius: 10px;
+}
+
+.code-background-4 {
+    position: absolute; top: 2130px; left: 315px;
+    color: black;
+    background-color: #949494;
+    width: 900px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.code-background-5 {
+    position: absolute; top: 2445px; left: 315px;
+    color: black;
+    background-color: #949494;
+    width: 900px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.code-background-6 {
+    position: absolute; top: 2460px; left: 315px;
+    color: black;
+    background-color: #949494;
+    width: 900px;
+    height: 305px;
+    border-radius: 10px;
+}
+
+.code-background-7 {
+    position: absolute; top: 2780px; left: 315px;
+    color: black;
+    background-color: #949494;
+    width: 900px;
+    height: 230px;
+    border-radius: 10px;
+}
+
+.code-background-8 {
+    position: absolute; top: 3025px; left: 315px;
+    color: black;
+    background-color: #949494;
+    width: 900px;
+    height: 255px;
     border-radius: 10px;
 }
 
@@ -199,7 +244,7 @@ code {
 /* Resources */
 .grey-tactile-background {
     position: absolute; top: 200px; left: 315px;
-    background-color: #787878;
+    background-color: #949494;
     width: 900px;
     height: 475px;
     border-radius: 10px;
@@ -210,12 +255,26 @@ code {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.wc ul {
-    list-style-type: none;
+a {
+    text-decoration: none;
+    color: #FF4033;
+}
+
+a:hover {
+    color: white;
 }
   
 .wc a {
     text-decoration: none;
+    color: white;
+}
+
+.wc a:hover {
+    color: #f0cc52;
+}
+
+.wc a:visited {
+    color: #f0cc52;
 }
 
 /* About */
