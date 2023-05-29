@@ -139,6 +139,39 @@ span:hover + div {
     display: block;
 }
 
+.little-hover-text {
+    position: absolute; top: 700px; left: 335px;
+    color: black;
+    background-color: #f0cc52;
+    padding: 25px;
+    border-style: solid;
+    border-color: #caa93f;
+    border-width: 5px;
+    border-radius: 30px;
+    width: 800px;
+}
+
+.little-yellow-tactile-background {
+    position: absolute; top: 700px; left: 315px;
+    background-color: #ebcf72;
+    width: 900px;
+    height: 135px;
+    border-radius: 10px;
+}
+
+.little-hidden {
+    position: absolute; top: 860px; left: 340px;
+    color: white;
+    background-color: #181818;
+    padding: 15px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 30px;
+    width: 800px;
+    display: none;
+}
+
 .code-background-1 {
     position: absolute; top: 1110px; left: 315px;
     color: black;
@@ -273,8 +306,28 @@ a:hover {
     color: #f0cc52;
 }
 
-.wc a:visited {
-    color: #f0cc52;
+/* About */
+
+/* Footer */
+.index {
+    display: block;
+    position: absolute; top: 3700px; left: 600px;
+    padding: 3px;
+    background-color: #181818;
+    color: white;
 }
 
-/* About */
+.resources {
+    display: block;
+    position: absolute; top: 1250px; left: 600px;
+    background-color: #181818;
+    color: white;
+}
+
+.about {
+    display: block;
+    position: absolute; top: 1200px; left: 600px;
+    padding: 3px;
+    background-color: #181818;
+    color: white;
+}
