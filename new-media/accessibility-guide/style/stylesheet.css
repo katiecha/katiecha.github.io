@@ -66,6 +66,21 @@ li a:hover {
 }
 
 /* Home */
+.title {
+    position: absolute; top: 90px; left: 315px;
+    background: #f0cc52;
+    width: 900px;
+    height: 75px;
+    border-radius: 10px;
+}
+
+.title h1 {
+    color: black;
+    padding-top: 5px;
+    padding-left: 300px;
+    font-size: 36px;
+}
+
 .quote {
     position: absolute; top: 225px; left: 335px;
     color: black;

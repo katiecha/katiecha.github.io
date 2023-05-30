@@ -5,39 +5,42 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link href="style/stylesheet.css" rel="stylesheet">
         <script src="script.js" defer></script>
     </head>
 
-    <body>
-        <nav class="navbar">
-            <div class="logo">
-                    <a href="index.html">Katie Chai</a>
-            </div>
-            <a href="#" class="toggle-button">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </a>
-            <div class="nav-links">
-                <ul>
-                    <li><a href="index.html">Work</a></li>
-                    <li><a href="playground.html">Playground</a></li>
-                    <li><a href="about.html">About</a></li>
-                </ul>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="logo">
+                        <a href="index.html">Katie Chai</a>
+                </div>
+                <a href="#" class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="#section1">Work</a></li>
+                        <li><a href="playground.html">Playground</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
         <section class="start"></section>
-
-        <div class="typing" style="height: 100px">
-            <h2>👋🌎 I'm Katie.<br>I'm a <span class="auto-type"></span></h2>
-            <p class="myp">I enjoy creating accessible designs driven by data.</p>
-        </div>
+            <div class="typing" style="height: 100px">
+                <h2>👋🌎 I'm Katie.<br>I'm a <span class="auto-type"></span></h2>
+                <p class="myp">I enjoy creating accessible designs driven by data.</p>
+            </div>
 
         <section class="home"></section>
 
-        <div style="height: 1000">
+        <div class="container-fluid" id="section1" style="height: 2000px">
             <h2 class="myH2">Projects</h2>
             <p class="myp">Check out my work!</p>
 

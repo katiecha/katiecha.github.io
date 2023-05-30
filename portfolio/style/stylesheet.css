@@ -83,6 +83,12 @@ p {
     color: #62C6F2;
 }
 
+#section1 {
+    padding-top:50px;
+    height:200px;
+    color: white;
+}
+
 /* Toggle button */
 .toggle-button {
     position: absolute;
