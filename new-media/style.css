@@ -114,6 +114,18 @@ p {
     color: white;
 }
 
+#section3 {
+    padding-top:50px;
+    height:400px;
+    color: white;
+}
+
+#section4 {
+    padding-top:50px;
+    height:400px;
+    color: white;
+}
+
 @media (max-width: 800px) {
     .toggle-button {
         display: flex;
