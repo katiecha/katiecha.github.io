@@ -9,7 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Katie_Chai_Project.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Katie_Chai_Project" startnode="1" creator="Twine" creator-version="2.6.2" format="Harlowe" format-version="3.3.5" ifid="a19c86bf-3644-49c0-99de-ec18d232d322" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500;600;700&display=swap');
+<tw-storydata name="Katie_Chai_Project" startnode="5" creator="Twine" creator-version="2.6.2" format="Harlowe" format-version="3.3.5" ifid="a19c86bf-3644-49c0-99de-ec18d232d322" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500;600;700&display=swap');
 
 /* Passage */
 tw-passage {
@@ -18,7 +18,7 @@ tw-passage {
   color: white;
   font-family: 'Markazi Text', serif;
   font-size: 5vh;
-  font-weight: 1000px;
+  font-weight: 700px;
   line-height: normal;
   text-shadow: 2px 2px black;
 }
@@ -31,7 +31,12 @@ tw-link:hover, .enchantment-link:hover {
 	color: #F5BB12;
 }
 
-
+/* Box */
+.opacity {
+  background-color: rgba(255,255,255,.25);
+  color: #fff;
+  border-radius: 15px;
+}
 
 /* Sidebar
 tw-sidebar {
@@ -43,8 +48,7 @@ margin-left: 3.5em;
 */
 
 
-
-/* Start/Title */
+/* -----------------------Start/Title--------------------- */
 tw-story[tags~="start"] {
   background-image:url("https://katiecha.github.io/new-media/twine-files/images/intro-fig.gif");
   background-size:cover;
@@ -61,7 +65,8 @@ tw-story[tags~="start"] {
   font-weight: 600;
 }
 
-/* Intro */
+
+/* -----------------------Intro--------------------- */
 tw-story[tags~="intro"] {
   background-image:url("https://katiecha.github.io/new-media/twine-files/images/tree-house.jpeg");
   background-size:cover;
@@ -77,8 +82,8 @@ tw-story[tags~="intro2"] {
   background-size:cover;
 }
 
-/* Character Intros */
 
+/* -----------------------Characters--------------------- */
 tw-story[tags~="Jake-Intro"] {
   background-image:url("https://katiecha.github.io/new-media/twine-files/images/sad%20jake%20playing%20video%20games.webp");
   background-size:cover;
@@ -92,10 +97,107 @@ tw-story[tags~="PB-Intro"] {
 tw-story[tags~="IceKing-Intro"] {
   background-image:url("https://katiecha.github.io/new-media/twine-files/images/Adventure-Time-Ice-King.jpg");
   background-size:cover;
+}
+
+tw-story[tags~="Death-Intro"] {
+  background-image:url("https://katiecha.github.io/new-media/twine-files/images/death.jpg");
+  background-size:cover;
+}
+
+/* -----------------------Jake Background--------------------- */
+tw-story[tags~="finn-and-jake"] {
+  background-image:url("https://katiecha.github.io/new-media/twine-files/images/Finn%20saying%20goodbye.png");
+  background-size:cover;
+}
+
+tw-story[tags~="jake-background1"] {
+  background-image:url("https://katiecha.github.io/new-media/twine-files/images/Jake%20and%20Finn%20young.jpg");
+  background-size:cover;
+}
+
+tw-story[tags~="jake-background2"] {
+  background-image:url("https://katiecha.github.io/new-media/twine-files/images/bmo%20holding%20jake.webp");
+  background-size:cover;
+}
+
+tw-story[tags~="jake-and-monster"] {
+  background-image:url("https://katiecha.github.io/new-media/twine-files/images/Jake%20crawling.jpg");
+  background-size:cover;
+}
+
+/* -----------------------Kingdoms--------------------- */
+tw-story[tags~="walk-to-icek"] {
+  background-image:url("https://katiecha.github.io/new-media/twine-files/images/ice-kingdom-far.jpeg");
+  background-size:cover;
+}
+
+tw-story[tags~="ice-kingdom"] {
+  background-image:url("https://katiecha.github.io/new-media/twine-files/images/ice-kingdom.webp");
+  background-size:cover;
+}
+
+tw-story[tags~="candy-kingdom"] {
+  background-image:url("https://katiecha.github.io/new-media/twine-files/images/candy-kingdom.webp");
+  background-size:cover;
+}
+
+
+/* -----------------------Death--------------------- */
+tw-story[tags~="death-and-jake"] {
+  background-image:url("https://katiecha.github.io/new-media/twine-files/images/death%20with%20jake.webp");
+  background-size:cover;
+}
+
+/* -----------------------PB--------------------- */
+tw-story[tags~="PB-lab"] {
+  background-image:url("https://katiecha.github.io/new-media/twine-files/images/new%20Finn.jpg");
+  background-size:cover;
+}
+
+tw-story[tags~="lab-finn"] {
+  background-image:url("https://katiecha.github.io/new-media/twine-files/images/new%20Finn%20beginning.jpeg");
+  background-size:cover;  
+}
+
+tw-story[tags~="dying-lab-finn"] {
+  background-image:url("https://katiecha.github.io/new-media/twine-files/images/mutant%20finn.png");
+  background-size:cover;  
+}
+
+/* -----------------------IK--------------------- */
+tw-story[tags~="ik-finn"] {
+  background-image:url("https://katiecha.github.io/new-media/twine-files/images/Finn%20w%20Crown.jpeg");
+  background-size:cover;  
+}
+
+tw-story[tags~="sick-finn-1"] {
+  background-image:url("https://katiecha.github.io/new-media/twine-files/images/Finn%20throws%20up.gif");
+  background-size:cover;  
+}
+
+tw-story[tags~="sick-finn-2"] {
+  background-image:url("https://katiecha.github.io/new-media/twine-files/images/Finn%20unleashes%20monsters.jpeg");
+  background-size:cover;  
+}
+
+tw-story[tags~="crown"] {
+  background-image:url("https://katiecha.github.io/new-media/twine-files/images/Finn%20breaks.gif");
+  background-size:cover;  
+}
+
+/* -----------------------The End--------------------- */
+tw-story[tags~="The-End"] {
+  background-image:url("https://katiecha.github.io/new-media/twine-files/images/death%20with%20jake.webp");
+  background-size:cover;
+}
+
+tw-story[tags~="end"] {
+  background-image:url("https://katiecha.github.io/new-media/twine-files/images/tree-house-sunset.jpeg");
+  background-size:cover;
 }</style><script role="script" id="twine-user-script" type="text/twine-javascript">(function () {
 	window.setup = window.setup || {};
 	var sound = $(document.createElement('audio')).attr({
-		src : 'https://katiecha.github.io/new-media/twine-files/audio/OSC%20-%20_Ambient%20Time_%20-%20Adventure%20Time%20Inspired%20Ambient%20Music.mp3',
+		src : 'https://katiecha.github.io/new-media/twine-files/audio/radio%20head%20sample.mp3',
 		loop : true
 	});
 	
@@ -111,25 +213,29 @@ tw-story[tags~="IceKing-Intro"] {
 		sound[0].muted = false;
 	});
 	
- }());</script><tw-tag name="estate" color="red"></tw-tag><tw-tag name="start" color="red"></tw-tag><tw-tag name="tree-house-sunrise" color="orange"></tw-tag><tw-tag name="page0" color="orange"></tw-tag><tw-tag name="Jake-Intro" color="yellow"></tw-tag><tw-tag name="intro" color="orange"></tw-tag><tw-tag name="PB-Intro" color="yellow"></tw-tag><tw-tag name="IceKing-Intro" color="yellow"></tw-tag><tw-tag name="intro1" color="orange"></tw-tag><tw-tag name="intro2" color="orange"></tw-tag><tw-passagedata pid="1" name="Start" tags="start" position="300,300" size="100,100">(set: $health to 0)
+ }());</script><tw-tag name="estate" color="red"></tw-tag><tw-tag name="start" color="red"></tw-tag><tw-tag name="tree-house-sunrise" color="orange"></tw-tag><tw-tag name="page0" color="orange"></tw-tag><tw-tag name="Jake-Intro" color="yellow"></tw-tag><tw-tag name="intro" color="orange"></tw-tag><tw-tag name="PB-Intro" color="blue"></tw-tag><tw-tag name="intro1" color="orange"></tw-tag><tw-tag name="intro2" color="orange"></tw-tag><tw-tag name="jake-background1" color="green"></tw-tag><tw-tag name="jake-background2" color="green"></tw-tag><tw-tag name="jake-and-monster" color="green"></tw-tag><tw-tag name="finn-and-jake" color="purple"></tw-tag><tw-tag name="walk-to-icek" color="orange"></tw-tag><tw-tag name="ice-king" color="green"></tw-tag><tw-tag name="IceKing-Intro" color="none"></tw-tag><tw-tag name="candy-kingdom" color="green"></tw-tag><tw-tag name="ice-kingdom" color="green"></tw-tag><tw-tag name="Death-Intro" color="blue"></tw-tag><tw-tag name="death-and-jake" color="blue"></tw-tag><tw-tag name="The-End" color="red"></tw-tag><tw-tag name="PB-lab" color="blue"></tw-tag><tw-tag name="lab-finn" color="blue"></tw-tag><tw-tag name="dying-lab-finn" color="blue"></tw-tag><tw-tag name="ik-finn" color="blue"></tw-tag><tw-tag name="sick-finn-1" color="blue"></tw-tag><tw-tag name="sick-finn-2" color="blue"></tw-tag><tw-tag name="no-crown" color="blue"></tw-tag><tw-tag name="crown" color="blue"></tw-tag><tw-passagedata pid="1" name="Start" tags="start" position="100,300" size="100,100">(set: $health to 0)
 (set: $happiness to 0)
+(set: $sleep to 0)
 
 &lt;div class=&quot;title&quot;&gt;Adventure Time&lt;/div&gt;
 &lt;div class=&quot;subtitle&quot;&gt;The Epilogue&lt;/div&gt;
 
 [[Come along with me! -&gt;Name?]]
 
-
-(link: &quot;by Katie Chai&quot;)[(katiecha.github.io/new-media/)]
-
 &lt;audio autoplay loop&gt;
 &lt;source src=&quot;https://katiecha.github.io/new-media/twine-files/audio/Adventure%20Time%20_%20Opening%20Theme%20(English)%20(HD).mp3&quot; type=&quot;audio/mpeg&quot;&gt;
-&lt;/audio&gt;</tw-passagedata><tw-passagedata pid="2" name="Intro" tags="intro" position="550,300" size="100,100">After the Gum War ended, the Land of Ooo finally found peace. </tw-passagedata><tw-passagedata pid="3" name="Name?" tags="intro" position="425,300" size="100,100">(set: $name to (prompt: &quot;What is your name?&quot;, &quot;&quot;))
+&lt;/audio&gt;
+
+(link: &quot;by Katie Chai&quot;)[(https://katiecha.github.io/new-media/)]
+</tw-passagedata><tw-passagedata pid="2" name="Intro" tags="intro" position="225,500" size="100,100">After the Gum War ended, the Land of Ooo finally found peace. 
+
+[[Continue -&gt; Intro1]]</tw-passagedata><tw-passagedata pid="3" name="Name?" tags="intro" position="100,500" size="100,100">(set: $name to (prompt: &quot;What is your name?&quot;, &quot;&quot;))
 
 Hello, $name!
 
-&#39;&#39;✰Credits✰&#39;&#39; (mouseover: &quot;Credits&quot;)[
-This game uses visuals, audio, and characters from //Adventure Time// by Pendleton Ward from Cartoon Network.]
+[✰Credits✰](mouseover: &quot;Credits&quot;)[
+This game uses visuals and audio from Adventure Time by Pendleton Ward from Cartoon Network.
+Special thanks to @eriko on SoundCloud for the main audio!]
 
 &lt;audio autoplay loop&gt;
 &lt;source src=&quot;https://katiecha.github.io/new-media/twine-files/audio/Adventure%20Time%20-%20Island%20Song%20With%20Lyrics.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
@@ -138,50 +244,344 @@ This game uses visuals, audio, and characters from //Adventure Time// by Pendlet
 {
 (link: &#39;Continue&#39;)[
     &lt;script&gt;setup.audio.el.play()&lt;/script&gt;
-    (goto: &#39;Intro1&#39;)
+    (goto: &#39;Intro&#39;)
 ]
-}</tw-passagedata><tw-passagedata pid="4" name="Jake" tags="Jake-Intro" position="800,100" size="100,100">🐶Jake the Dog
+}</tw-passagedata><tw-passagedata pid="4" name=" Intro2" tags="intro2" position="350,625" size="100,100">It’s been 1 month since Finn passed away.
 
-(set: $health to $health + 2)
+[[Continue -&gt; Character]] </tw-passagedata><tw-passagedata pid="5" name=" Character" tags="intro" position="350,500" size="100,100">(set: $health to $health + 2)
+//I wonder how Jake is doing?//
 
-Health level: $health.
-Happiness level: $happiness.</tw-passagedata><tw-passagedata pid="5" name="PB" tags="PB-Intro" position="800,300" size="100,100">👩‍🔬Princess Bubblegum
+[[Continue -&gt; Jake]] </tw-passagedata><tw-passagedata pid="6" name=" Jake Background" tags="jake-background1" position="475,625" size="100,100">Finn and Jake grew up together.
 
-(set: $health to $health + 1)
-(set: $happiness to $happiness + 1)
+[[Continue -&gt; Jake Background 1]] 
+        </tw-passagedata><tw-passagedata pid="7" name=" Jake Background 1" tags="jake-background2" position="600,625" size="100,100">Now that Finn is gone, Jake doesn&#39;t know what to do.
 
-Health level: $health.
-Happiness level: $happiness.</tw-passagedata><tw-passagedata pid="6" name="Ice King" tags="IceKing-Intro" position="800,500" size="100,100">🤴Ice King
+What should he do to feel better?
 
-(set: $happiness to $happiness + 2)
+[[Take a nap -&gt; Nap]]
+[[Take a walk -&gt; Walk]]</tw-passagedata><tw-passagedata pid="8" name=" Nap" tags="Jake-Intro" position="725,525" size="100,100">(set: $health to $health + 1)
+(set: $sleep to $sleep + 1)
 
-Health level: $health.
-Happiness level: $happiness.</tw-passagedata><tw-passagedata pid="7" name="Intro1" tags="intro1" position="550,425" size="100,100">Years passed and Finn, the human boy, began to age. Eventually, the hero settled down, started a family, and lived a nice life with his best friend Jake…
+&lt;div class=&quot;wrapper&quot;&gt;
+    &lt;div class=&quot;opacity&quot;&gt;
+    	🐶Jake the Dog
+        
+        Health level: $health
+        Happiness level: $happiness
+        
+        (if: $sleep &gt; 3)[Jake&#39;s been sleeping for a concerning amount of time
+        	[[Continue -&gt; Lady]]
+        ]
+		(else:)[[Continue -&gt; Jake Background 1]]
+        
+    &lt;/div&gt;
+&lt;/div&gt;       </tw-passagedata><tw-passagedata pid="9" name=" Walk" tags="intro" position="725,700" size="100,100">(set: $happiness to $happniess + 1)
 
-[[Continue -&gt; Intro2]]</tw-passagedata><tw-passagedata pid="8" name=" Intro2" tags="intro2" position="550,550" size="100,100">It’s now been 10 months since Finn passed away.
+&lt;div class=&quot;wrapper&quot;&gt;
+    &lt;div class=&quot;opacity&quot;&gt;
+    	🐶Jake the Dog
+        
+        Health level: $health
+        Happiness level: $happiness
+        
+        [[Continue -&gt; Walking]]
+        
+    &lt;/div&gt;
+&lt;/div&gt;       </tw-passagedata><tw-passagedata pid="10" name=" Lady" tags="intro" position="850,400" size="100,100">(live: 1s)[&quot;나는 당신에 대해 걱정&quot;
 
-[[Continue -&gt; Character?]] </tw-passagedata><tw-passagedata pid="9" name=" Character?" tags="intro" position="675,300" size="100,100">Who do you want to play as? 
-
-[[Jake -&gt;Jake]]
-[[Princess Bubblegum -&gt;PB]]
-[[Ice King -&gt;Ice King]]</tw-passagedata><tw-passagedata pid="10" name="Untitled Passage" tags="" position="550,700" size="100,100">{
-|TheGun&gt;[
-  (link: &quot;Take the gun&quot;)[
-  (replace: ?TheGun)[You take the gun and destroy it.]
-  ]
-  or (link: &quot;Refuse it&quot;)[
-  (replace: ? TheGun)[You refuse the gun and hand it back.]
-  ]
+//Lady is worried about Jake.//
 ]
+
+(live: 4s)[&quot;신선한 공기를 쐬자&quot;
+
+//She wants to take a walk outside.//
+]
+
+(live: 7s)[
+[[Go with her]]
+
+[[Stay]]
+]
+</tw-passagedata><tw-passagedata pid="11" name="Go with her" tags="intro" position="975,500" size="100,100">Jake and Lady start walking.
+
+[[Continue -&gt; Candy Kingdom]]</tw-passagedata><tw-passagedata pid="12" name="Stay" tags="" position="975,300" size="100,100">&lt;!-- Set the text to show --&gt;
+(set: $typewriterText to &quot;crreak&quot;)
+
+{
+  (set: $typewriterPos to 1)
+
+  |typewriterOutput&gt;[]
+
+  (live: 100ms)[
+
+    (append: ?typewriterOutput)[(print: $typewriterText&#39;s $typewriterPos)]
+
+    (set: $typewriterPos to it + 1)
+
+    (if: $typewriterPos is $typewriterText&#39;s length + 1)[
+      (stop:)
+    ]
+  ]
 }
 
-(link: &quot;Ted Lasso&quot;)[My favorite show]
+[[Continue -&gt; Stay1]]</tw-passagedata><tw-passagedata pid="13" name=" Stay1" tags="" position="1100,300" size="100,100">&lt;!-- Set the text to show --&gt;
+(set: $typewriterText to &quot;CRRREEAK&quot;)
 
-The show has many good characters. (mouseover: &quot;The show&quot;)[The season is ending.]
+{
+  (set: $typewriterPos to 1)
 
-(if: $happiness&gt;0)[You are happy.]
-(if: $happiness&lt;0)[You are not happy.]
-</tw-passagedata></tw-storydata>
+  |typewriterOutput&gt;[]
+
+  (live: 75ms)[
+
+    (append: ?typewriterOutput)[(print: $typewriterText&#39;s $typewriterPos)]
+
+    (set: $typewriterPos to it + 1)
+
+    (if: $typewriterPos is $typewriterText&#39;s length + 1)[
+      (stop:)
+    ]
+  ]
+}
+
+[[Go outside -&gt; Tree House Destroyed]]</tw-passagedata><tw-passagedata pid="14" name=" Intro1" tags="intro1" position="225,625" size="100,100">Years passed and Finn, the human boy, began to age. Eventually, the hero settled down, started a family, and lived a nice life with his best friend Jake…
+
+[[Continue -&gt; Intro2]]</tw-passagedata><tw-passagedata pid="15" name=" Jake" tags="Jake-Intro" position="475,500" size="100,100">&lt;div class=&quot;wrapper&quot;&gt;
+    &lt;div class=&quot;opacity&quot;&gt;
+    	🐶Jake the Dog
+        
+        Health level: $health
+        Happiness level: $happiness
+        
+        
+        [[Continue -&gt; Jake Background]]
+        
+    &lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="16" name=" Tree House Destroyed" tags="jake-and-monster" position="1225,300" size="100,100">(set: $health to 0)
+
+The treehouse was demolished by a monster!
+
+Jake&#39;s life is on the line.
+
+Health level: $health
+Happiness level: $happiness
+
+[[Continue -&gt; Death]]</tw-passagedata><tw-passagedata pid="17" name=" PB" tags="PB-Intro" position="1400,600" size="100,100">(live: 2s)[What are you doing here?]
+
+(live: 4s)[[[Continue -&gt; PB1]]]</tw-passagedata><tw-passagedata pid="18" name=" Candy Kingdom" tags="candy-kingdom" position="1100,500" size="100,100">Eventually, they get to the Candy Kingdom where Princess Bubblegum lives.
+
+[[Continue -&gt; PB]]</tw-passagedata><tw-passagedata pid="19" name=" Ice King" tags="IceKing-Intro" position="1400,900" size="100,100">(live: 2s)[Jake?]
+
+(live: 4s)[[[Continue -&gt; IceKing1]]]</tw-passagedata><tw-passagedata pid="20" name=" Death" tags="Death-Intro" position="1400,300" size="100,100">(live: 2s)[I&#39;ve been expecting you.]
+
+(live: 4s)[[[Continue -&gt; Death1]]]</tw-passagedata><tw-passagedata pid="21" name=" Walking" tags="walk-to-icek" position="975,700" size="100,100">He walks for 3 days
+
+[[Continue -&gt;  Ice Kingdom]] </tw-passagedata><tw-passagedata pid="22" name="  Ice Kingdom" tags="ice-kingdom" position="1100,700" size="100,100">He walks all the way to the Ice Kingdom where Ice King lives.
+
+[[Continue -&gt; Ice King]]</tw-passagedata><tw-passagedata pid="23" name=" PB1" tags="PB-Intro" position="1525,725" size="100,100">What should Jake ask?
+
+[[Please bring back Finn for me. -&gt; PB&#39;s plan]]
+
+[[I miss Finn. -&gt; It&#39;s okay]]</tw-passagedata><tw-passagedata pid="24" name=" IceKing1" tags="" position="1525,1025" size="100,100">[[Please bring back Finn for me. -&gt; IK2]]</tw-passagedata><tw-passagedata pid="25" name=" Death1" tags="death-and-jake" position="1525,300" size="100,100">What should Jake ask?
+
+[[Please bring back Finn for me.]]
+
+[[Let me say goodbye one last time.]]</tw-passagedata><tw-passagedata pid="26" name="Please bring back Finn for me." tags="" position="1650,400" size="100,100">(live: 2s)[I&#39;m sorry. I cannot do that. It was his time to pass.]
+
+(live: 4s)[
+[[Let me say goodbye one last time.]]
+[[I&#39;ll take matters into my own hands. -&gt; PB]]
+]</tw-passagedata><tw-passagedata pid="27" name="Let me say goodbye one last time." tags="" position="1650,200" size="100,100">(live: 2s)[...Okay]
+
+(live: 4s)[
+[[Continue]]
+]</tw-passagedata><tw-passagedata pid="28" name=" End" tags="finn-and-jake" position="2600,625" size="100,100">(live: 2s)[Jake?]
+
+(live: 4s)[Thank you for visiting me.]
+
+(live: 6s)[
+[[Let me show you something.]]
+]
+</tw-passagedata><tw-passagedata pid="29" name="Continue" tags="" position="1775,200" size="100,100">You see Finn.
+
+[[Continue -&gt; End]]</tw-passagedata><tw-passagedata pid="30" name="Let me show you something." tags="end" position="2725,625" size="100,100">&lt;!-- Set the text to show --&gt;
+(set: $typewriterText to &quot;Finn takes you to the Music Hole. Here you can see the future.&quot;)
+
+{
+  (set: $typewriterPos to 1)
+
+  |typewriterOutput&gt;[]
+
+  (live: 100ms)[
+
+    (append: ?typewriterOutput)[(print: $typewriterText&#39;s $typewriterPos)]
+
+    (set: $typewriterPos to it + 1)
+
+    (if: $typewriterPos is $typewriterText&#39;s length + 1)[
+      (stop:)
+    ]
+  ]
+}
+
+[[Continue -&gt; Let me show you something]]</tw-passagedata><tw-passagedata pid="31" name=" Let me show you something" tags="" position="2850,625" size="100,100">&lt;div class=&quot;video-outside&quot;&gt;
+    &lt;div class=&quot;video-inside&quot;&gt;
+    	&lt;video src=&quot;https://katiecha.github.io/new-media/twine-files/Come-Along-With-Me.mp4&quot; muted autoplay loop controls height=&quot;500px&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="32" name=" PB&#39;s plan" tags="PB-lab" position="1650,625" size="100,100">&lt;!-- Set the text to show --&gt;
+(set: $typewriterText to &quot;PB starts working in her lab to engineer a new Finn for Jake.&quot;)
+
+{
+  (set: $typewriterPos to 1)
+
+  |typewriterOutput&gt;[]
+
+  (live: 75ms)[
+
+    (append: ?typewriterOutput)[(print: $typewriterText&#39;s $typewriterPos)]
+
+    (set: $typewriterPos to it + 1)
+
+    (if: $typewriterPos is $typewriterText&#39;s length + 1)[
+      (stop:)
+    ]
+  ]
+}
+
+[[Continue -&gt; Lab Finn]]</tw-passagedata><tw-passagedata pid="33" name=" Lab Finn" tags="lab-finn" position="1775,625" size="100,100">&lt;!-- Set the text to show --&gt;
+(set: $typewriterText to &quot;At the beginning, everything was normal.&quot;)
+
+{
+  (set: $typewriterPos to 1)
+
+  |typewriterOutput&gt;[]
+
+  (live: 50ms)[
+
+    (append: ?typewriterOutput)[(print: $typewriterText&#39;s $typewriterPos)]
+
+    (set: $typewriterPos to it + 1)
+
+    (if: $typewriterPos is $typewriterText&#39;s length + 1)[
+      (stop:)
+    ]
+  ]
+}
+
+[[Continue -&gt; Dying Lab Finn]]</tw-passagedata><tw-passagedata pid="34" name=" Dying Lab Finn" tags="dying-lab-finn" position="1900,625" size="100,100">&lt;!-- Set the text to show --&gt;
+(set: $typewriterText to &quot;But then Lab Finn&#39;s body started to fall apart.&quot;)
+
+{
+  (set: $typewriterPos to 1)
+
+  |typewriterOutput&gt;[]
+
+  (live: 25ms)[
+
+    (append: ?typewriterOutput)[(print: $typewriterText&#39;s $typewriterPos)]
+
+    (set: $typewriterPos to it + 1)
+
+    (if: $typewriterPos is $typewriterText&#39;s length + 1)[
+      (stop:)
+    ]
+  ]
+}
+
+[[ Continue -&gt; Jake PB Sad]]</tw-passagedata><tw-passagedata pid="35" name=" Jake PB Sad" tags="" position="2025,625" size="100,100">(set: $happiness to $happiness - 2)
+
+Jake&#39;s mental health worsens.
+
+Health level: $health
+Happiness level: $happiness
+
+[[Continue -&gt; Lady Help]]</tw-passagedata><tw-passagedata pid="36" name=" Lady Help" tags="" position="2150,625" size="100,100">Lady holds Jake&#39;s hand.
+
+(live: 2s)[&quot;놓아줄 시간이야&quot;
+
+//It&#39;s time to let go.//
+]
+
+(live: 7s)[
+[[Let go]]
+]</tw-passagedata><tw-passagedata pid="37" name="Let go" tags="" position="2275,625" size="100,100">(live: 2s)[Jake falls asleep.]
+
+(live: 4s)[[[Continue -&gt; End]]]</tw-passagedata><tw-passagedata pid="38" name=" It&#39;s okay" tags="PB-Intro" position="1650,825" size="100,100">(live: 2s)[It&#39;s okay, Jake. I do too.]
+
+(live: 4s)[
+[[Please bring back Finn for me. -&gt; PB&#39;s plan]]
+[[Start moving on]]
+]</tw-passagedata><tw-passagedata pid="39" name="Start moving on" tags="" position="2275,800" size="100,100">(live: 2s)[Jake falls asleep that night.]
+
+(live: 4s)[[[Continue -&gt; End]]]</tw-passagedata><tw-passagedata pid="40" name=" IK2" tags="IceKing-Intro" position="1650,1025" size="100,100">(live: 2s)[Take my crown. It might bring him back.]
+
+(live: 4s)[[[Continue -&gt; IK3]]]</tw-passagedata><tw-passagedata pid="41" name=" IK3" tags="" position="1775,1025" size="100,100">&lt;!-- Set the text to show --&gt;
+(set: $typewriterText to &quot;Jake goes to Finn&#39;s grave and places the crown on his head.&quot;)
+
+{
+  (set: $typewriterPos to 1)
+
+  |typewriterOutput&gt;[]
+
+  (live: 50ms)[
+
+    (append: ?typewriterOutput)[(print: $typewriterText&#39;s $typewriterPos)]
+
+    (set: $typewriterPos to it + 1)
+
+    (if: $typewriterPos is $typewriterText&#39;s length + 1)[
+      (stop:)
+    ]
+  ]
+}
+
+[[ Continue -&gt; IK4]]</tw-passagedata><tw-passagedata pid="42" name=" IK4" tags="ik-finn" position="1900,1025" size="100,100">&lt;!-- Set the text to show --&gt;
+(set: $typewriterText to &quot;Finn is resurrected.&quot;)
+
+{
+  (set: $typewriterPos to 1)
+
+  |typewriterOutput&gt;[]
+
+  (live: 25ms)[
+
+    (append: ?typewriterOutput)[(print: $typewriterText&#39;s $typewriterPos)]
+
+    (set: $typewriterPos to it + 1)
+
+    (if: $typewriterPos is $typewriterText&#39;s length + 1)[
+      (stop:)
+    ]
+  ]
+}
+
+[[ Continue -&gt; IK5]]</tw-passagedata><tw-passagedata pid="43" name=" IK5" tags="sick-finn-1" position="2025,1025" size="100,100">Something is wrong.
+
+[[Continue -&gt; IK6]]</tw-passagedata><tw-passagedata pid="44" name=" IK6" tags="sick-finn-2" position="2150,1025" size="100,100">(live: 2s)[Finn cannot control his powers. ]
+
+(live: 4s)[He releases a swarm of monsters.]
+
+(live: 6s)[
+[[Continue -&gt; IK7]]
+]
+</tw-passagedata><tw-passagedata pid="45" name=" IK7" tags="" position="2275,1025" size="100,100">What should Jake do?
+
+[[ Knock off the crown -&gt; Restart]]
+[[ Nothing -&gt; Jake&#39;s Death]]</tw-passagedata><tw-passagedata pid="46" name=" Restart" tags="" position="2400,1125" size="100,100">(set: $happiness to $happiness - 1)
+Without the crown, Finn dies.
+
+[[Restart? -&gt; Jake]] </tw-passagedata><tw-passagedata pid="47" name=" Jake&#39;s Death" tags="crown" position="2400,925" size="100,100">(set: $health to 0)
+
+Jake is struck by Finn&#39;s beam.
+
+His life is now on the line.
+
+Finn removes the crown out of guilt which causes his death.
+
+Health level: $health
+Happiness level: $happiness
+
+[[Continue -&gt; Death]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
