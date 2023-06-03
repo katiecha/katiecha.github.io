@@ -22,7 +22,7 @@ This uses CSS variables - so you only have to change the colors in one place */
   --space: 16px;
   --space-xsm: 4px;
   --space-sm: 8px;
-  --space-lg: 24px;
+  --space-lg: 64px;
   --space-xlg: 48px;
 }
 
