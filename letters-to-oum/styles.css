@@ -16,7 +16,7 @@ This uses CSS variables - so you only have to change the colors in one place */
   --message-txt: #333333;
 
   /* Fonts */ 
-  --font-text: 'Indie Flower', cursive;;
+  --font-text: 'Indie Flower', cursive;
 
   /* Space and other details */
   --space: 16px;
@@ -71,7 +71,7 @@ a:hover {
     height: 100%;
     padding: var(--space-lg);
     display: flex;
-    align-items: center;
+
     justify-content: center;
     flex-direction: column;
     position: relative;
