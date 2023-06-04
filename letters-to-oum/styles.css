@@ -49,7 +49,6 @@ a {
 
 a:hover {
     color: purple;
-    background: repeating-linear-gradient(var(--message-bg), var(--message-bg) 31px, var(--message-line) 31px, var(--message-line) 32px);
     box-shadow: var(--space-xsm) var(--space-xsm) 15px rgba(0,0,0, .15);
 }
 
