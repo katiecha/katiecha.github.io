@@ -1,15 +1,14 @@
 body {
-    max-width: 37.5rem;
-    margin: 0 auto;
-    padding: 0 1.25rem;
-    font-family: 'Lato', sans-serif;
-    background-color: wh;
+  max-width: 60rem;
+  margin: 0 auto;
+  font-family: ;
+  background-color: wh;
 }
-  
+
 * {
-  box-sizing: border-box;
+box-sizing: border-box;
 }
-  
+
 .title {
   text-align: center;
   padding: 3vh;
@@ -29,74 +28,33 @@ body {
   padding-top: 10px;
 }
 
-.carousel {
-  position: absolute;
-  width: 600px;
-  margin: auto;
-  overflow: hidden;
-  margin-top: 100px;
-}
-  
-.carousel, ul {
-  height: 300px;
+.partners {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.carousel li {
-  display: inline-block;
-  height: 300px;
-  float: left;
-  position: relative;
-  width: 600px;
+.grid-container {
+  display: grid;
+  height: 400px;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 10px;
 }
 
-.carousel ul {
-  position: absolute;
-  left: 0;
-  top: -15px;
-  width: 9000px;
-  list-style: none;
-  margin-left: -50px;
-  transition: left .3s linear;
-}
-  
-.carousel-container {
-  margin: 0 auto;
-  padding: 0;
-  width: 600px;
+.partner-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 3
 }
 
-.carousel-container img {
+.partner-container img {
   width: auto;
   height: auto;
-  max-width: 600px;
-  max-height: 300px;
+  max-width: 300px;
+  max-height: 150px;
   display: block;
   padding: 0 80px;
 }
-
-.carousel ul {
-  animation: slide-animation 20s infinite;
-}
-
-.carousel ul:hover {
-  animation-play-state: paused;
-}
-  
-  
-/* 100% divided by 6 logos = 16.67 = 15% increase */
-@keyframes slide-animation {
-  15%{left: 0}
-  20%{left: -600px}
-  30%{left: -600px}
-  35%{left: -1200px}
-  45%{left: -1200px}
-  50%{left: -1800px}
-  60%{left: -1800px}
-  65%{left: -2400px}
-  75%{left: -2400px}
-  88%{left: -3000px}
-  98%{left: -3000px}
-  100%{left: 0}
-}
-  
-  
