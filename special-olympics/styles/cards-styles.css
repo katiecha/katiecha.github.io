@@ -1,0 +1,21 @@
+.card {
+    background-color: #025994;
+    color: white;
+    width: 100%;
+  }
+  
+  .card-container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .card p {
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  .card-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+  }
