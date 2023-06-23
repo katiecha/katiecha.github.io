@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Spline+Sans:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
 
 * {
     padding: 0;
@@ -8,23 +9,71 @@
 
 /* Dark Mode */
 :root {
-  --clr-background: #181818;
-  --clr-base: #263238;
-  --clr-primary: #62C6F2;
-  --clr-text: #ffffff;
-  --font-size: 16px;
-  --border-radius: 0.2em;
+    --clr-background: #070b1f;
+    --clr-primary: #cb4b21;
+    --clr-text: white;
 }
 
-/* Light Mode */
+/* Light Mode */ 
 .light-mode {
-    --clr-background: #181818;
-    --clr-base: #263238;
-    --clr-primary: #62C6F2;
-    --clr-text: #ffffff;
-    --font-size: 16px;
-    --border-radius: 0.2em;
-  }
+    --clr-background: #fcf7f2;
+    --clr-primary: #489034;
+    --clr-text: #0b0d11;
+}
+
+/* Dark Mode */
+.dark-mode {
+    --clr-background: #070b1f;
+    --clr-primary: #cb4b21;
+    --clr-text: white;
+}
+
+.wrapper-color-switch {
+  display: flex;
+  justify-content: left;
+  padding-left: 30px;
+  padding-top: 10px;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.color-switch {
+    width: 4em;
+    height: 2em;
+    border-radius: 10em;
+    background: var(--clr-base);
+    border: 2px solid var(--clr-primary);
+    position: absolute;
+    cursor: pointer;
+}
+
+.color-switch-toggle {
+    width: 1.25em;
+    height: 1.25em;
+    background: var(--clr-primary);
+    position: absolute;
+    border-radius: 10em;
+    top: 0.25em;
+    left: 0.25em;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+
+.color-switch::before {
+    position: absolute;
+    display: inline-block;
+    width: 12em;
+    left: -8em;
+    top: 0.4em;
+}
+
+#input-color-switch:checked ~ label .color-switch-toggle {
+  transform: translatex(2em);
+}
+
+#input-color-switch {
+    display: none;
+}
 
 body {
     margin: 0;
@@ -34,7 +83,9 @@ body {
 }
 
 span {
-    color: var(--clr-primary)
+    font-family: 'Rock 3D', cursive;
+    color: var(--clr-primary);
+    font-weight: 1000;
 }
 
 img {
@@ -69,7 +120,7 @@ p {
 .logo {
     font-size: 1.5rem;
     margin: 1rem;
-    font-family: "Arvo", sans-serif;
+    font-family: 'Rock 3D', cursive;
 }
 
 .logo a {
@@ -103,8 +154,8 @@ p {
 }
 
 #section1 {
-    padding-top:50px;
-    height:200px;
+    padding-top: 50px;
+    height: 175px;
     color: var(--clr-text);
 }
 
