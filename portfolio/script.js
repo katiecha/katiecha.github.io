@@ -17,18 +17,18 @@ colorSwitch.addEventListener("click", checkMode);
 function checkMode() {
   console.log("checking...");
   if (colorSwitch.checked) {
-    console.log("light on");
-    lightModeOn();
+    console.log("dark on");
+    darkModeOn();
   } else {
-    console.log("light off");
-    lightModeOff();
+    console.log("dark off");
+    darkModeOff();
   }
 }
 
-function lightModeOn() {
-  document.body.classList.add("light-mode");
+function darkModeOn() {
+  document.body.classList.add("dark-mode");
 }
 
-function lightModeOff() {
-  document.body.classList.remove("light-mode");
+function darkModeOff() {
+  document.body.classList.remove("dark-mode");
 }
