@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 @import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
 
 * {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -9,13 +11,16 @@
 /* Dark Mode */
 :root {
     --clr-background: #fffcf8;
+    --clr-background2: #ffe4bf;
     --clr-primary: #e86500;
     --clr-text: #0b0d11;
+    --font: sans-serif;
 }
 
 /* Light Mode */ 
 .light-mode {
     --clr-background: #fefaf4;
+    --clr-background2: #ffe4bf;
     --clr-primary: #d25b00;
     --clr-text: #0b0d11;
 }
@@ -23,6 +28,7 @@
 /* Dark Mode */
 .dark-mode {
     --clr-background: #1e1b1e;
+    --clr-background2: #28853c;
     --clr-primary: #409c54;
     --clr-text: white;
 }
@@ -97,12 +103,20 @@ img {
 
 a {
     text-decoration: none;
+    color: var(--clr-text);
+}
+
+a:hover {
     color: var(--clr-primary);
 }
 
 p {
     text-align: center;
     font-weight: 400;
+}
+
+h3 {
+    text-align: center;
 }
 
 /* Navbar section */
@@ -276,3 +290,74 @@ iframe {
     text-align: center;
     padding: 15px;
 }
+
+/* Timeline */
+.design-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr-background);
+    min-height: 100vh;
+    padding: 100px 0;
+    font-family: Jost;
+  }
+  
+  .design {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .timeline {
+    width: 80%;
+    height: auto;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .timeline-content {
+    padding: 20px;
+    background: var(--clr-background2);
+    border-radius: 5px;
+    color: var(--clr-text);
+    padding: 1.75rem;
+    transition: 0.4s ease;
+    overflow-wrap: break-word !important;
+    margin: 1rem;
+    margin-bottom: 20px;
+    border-radius: 6px;
+  }
+  
+  .timeline-component {
+    margin: 0px 20px 20px 20px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .timeline {
+      display: grid;
+      grid-template-columns: 1fr 3px 1fr;
+    }
+    .timeline-middle {
+      position: relative;
+      background: var(--clr-text);
+      width: 3px;
+      height: 100%;
+    }
+    .main-middle {
+      opacity: 0;
+    }
+    .timeline-circle {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: var(--clr-text);
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+    }
+  }
