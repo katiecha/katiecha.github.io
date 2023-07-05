@@ -355,12 +355,12 @@ margin: 10px 10px;
 .card-title {
 	text-align: center;
 	padding-top: 5%;
-	font-size: 1rem;
+	font-size: 2.25vh;
 }
 
 .subtitle {
     text-align: center;
-    font-size: 0.85rem;
+    font-size: 1.75vh;
     padding-left:10%;
 	padding-right:10%;
 }
