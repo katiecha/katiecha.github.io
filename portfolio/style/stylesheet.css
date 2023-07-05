@@ -458,4 +458,15 @@ and (orientation: portrait) {
         border-radius: 6px;
         display: none;
     }
+
+    .card-title {
+        text-align: center;
+        padding-top: 5%;
+        font-size: 1.75vh;
+    }
+
+    .subtitle {
+        text-align: center;
+        font-size: 1vh;
+    }
 }
