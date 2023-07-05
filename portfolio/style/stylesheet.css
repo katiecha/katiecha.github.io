@@ -448,3 +448,11 @@ iframe {
               transform: translateX(-50%);
     }
   }
+
+  @media screen and (max-width: 768px) {
+    .content img {
+        border-radius: 6px;
+        display: none;
+    }
+
+  }
