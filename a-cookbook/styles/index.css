@@ -16,7 +16,8 @@ body {
   --text-black: #0b0d11;
   --text-white: white;
   --text-accent: rgb(7, 50, 7);
-  --accent-main: #e86500;
+  --button-color: white;
+  --button-color-hover: #4CAF50;
 }
 
 /*--------------Navbar--------------*/
@@ -151,6 +152,27 @@ body {
   font-size: 2vh;
 }
 
+/*--------------Button--------------*/
+.button {
+  background-color: var(--button-color);
+  border: none;
+  color: var(--text-accent);
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vh;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 2.5px;
+}
+
+.button:hover {
+  background-color: var(--button-color-hover);
+  color: var(--text-white);
+}
+
+/*--------------Footer--------------*/
 .footer {
   padding-top: 10%;
   padding-bottom: 3%;
