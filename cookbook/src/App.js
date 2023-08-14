@@ -2,22 +2,20 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
-import Menu from "./pages/Menu";
+import Recipes from "./pages/Recipes";
 import About from "./pages/About";
-import Contact from "./pages/Contact";
-import { BrowserRouter as Router, Route, Routes as Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Navbar />
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/menu" exact component={Menu} />
-          <Route path="/about" exact component={About} />
-          <Route path="/contact" exact component={Contact} />
-        </Switch>
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+          <Route path="/recipes" exact element={<Recipes />} />
+          <Route path="/about" exact element={<About />} />
+        </Routes>
         <Footer />
       </Router>
     </div>
