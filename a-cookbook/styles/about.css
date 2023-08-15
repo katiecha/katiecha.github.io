@@ -147,10 +147,18 @@ body {
   font-weight: 400;
 }
 
-.myAbout p {
-  font-size: 2vh;
+.myAbout img {
+  width: 75vw;
+  padding-top: 10%;
 }
 
+.myAbout p {
+  font-size: 1.75vh;
+  font-weight: 400;
+  color: var(--text-white);
+}
+
+/*--------------Footer--------------*/
 .footer {
   padding-top: 10%;
   padding-bottom: 3%;
