@@ -140,7 +140,8 @@ body {
 .myAbout {
   background-color: var(--text-accent);
   text-align: center;
-  padding: 10%;
+  padding-top: 2.5%;
+  padding-bottom: 5%;
   color: var(--text-white);
 }
 
@@ -178,7 +179,7 @@ article {
   --link-icon-translate: -20px;
   --link-icon-opacity: 0;
   position: relative;
-  border-radius: 10px;
+
   box-shadow: none;
   background: #fff;
   transform-origin: center;

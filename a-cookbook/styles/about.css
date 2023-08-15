@@ -13,6 +13,7 @@ body {
 /*--------------Colors--------------*/
 :root {
   --background: white;
+  --background-grey: #e1e1e1;
   --text-black: #0b0d11;
   --text-white: white;
   --text-accent: rgb(7, 50, 7);
@@ -115,7 +116,7 @@ body {
 }
 
 .myHeader img {
-  width: 75vw;
+  width: 75vh;
 }
 
 .myHeader p {
@@ -134,11 +135,31 @@ body {
   color: var(--text-accent);
 }
 
+/*--------------Intro1--------------*/
+.myIntro1 {
+  background-color: var(--background-grey);
+  text-align: center;
+  padding-top: 2.5%;
+  padding-bottom: 5%;
+}
+
+.myIntro1 img {
+  width: 50vh;
+  padding-top: 5%;
+}
+
+.myIntro1 p {
+  font-size: 1.75vh;
+  font-weight: 400;
+  color: var(--text-black);
+}
+
 /*--------------About--------------*/
 .myAbout {
   background-color: var(--text-accent);
   text-align: center;
-  padding: 10%;
+  padding-top: 2.5%;
+  padding-bottom: 5%;
   color: var(--text-white);
 }
 
@@ -148,8 +169,8 @@ body {
 }
 
 .myAbout img {
-  width: 75vw;
-  padding-top: 10%;
+  width: 75vh;
+  padding-top: 5%;
 }
 
 .myAbout p {
