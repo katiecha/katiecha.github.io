@@ -27,6 +27,8 @@ body {
   background-color: var(--background);
   display: flex;
   align-items: center;
+  position: relative; /* Ensure relative positioning for z-index to work */
+  z-index: 1; /* Place the navbar on top of other content */
 }
 .nav > .nav-header {
   flex: 0.95;
