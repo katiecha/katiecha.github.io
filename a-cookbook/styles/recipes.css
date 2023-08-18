@@ -140,11 +140,11 @@ body {
 
 /*--------------About--------------*/
 .myAbout {
-  background-color: var(--text-accent);
+  background-color: var(--text-white);
   text-align: center;
   padding-top: 5%;
   padding-bottom: 5%;
-  color: var(--text-white);
+  color: var(--text-accent);
 }
 
 .myAbout h3 {
@@ -171,7 +171,7 @@ body {
 
 /*--------------Cards--------------*/
 .cards {
-  background-color: var(--text-accent);
+  background-color: var(--text-white);
   padding-bottom: 10%;
 }
 
