@@ -156,6 +156,23 @@ body {
   font-size: 2vh;
 }
 
+/*--------------About2--------------*/
+.myAbout2 {
+  background-color: var(--text-white);
+  text-align: center;
+  color: var(--text-accent);
+}
+
+.myAbout2 h3 {
+  font-size: 3vh;
+  font-weight: 400;
+}
+
+.myAbout2 p {
+  font-size: 2vh;
+}
+
+/*--------------Footer--------------*/
 .footer {
   padding-top: 10%;
   padding-bottom: 3%;
