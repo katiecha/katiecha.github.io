@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: var(--clr-background);
+    color: var(--clr-text);
+}
+
+span {
+    font-family: 'Rock 3D', cursive;
+    color: var(--clr-primary);
+    font-weight: 1000;
+}
+
+img {
+    max-width: 60%;
+    max-height: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: var(--clr-text);
+}
+
+a:hover {
+    color: var(--clr-primary);
+}
+
+p {
+    text-align: center;
+    font-weight: 400;
+}
+
+h3 {
+    text-align: center;
+}
+
+.myH2 {
+	text-align: center;
+	font-size: 2rem;
+    font-weight: 600;
+}
+
+.myH3 {
+	text-align: center;
+	font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.myH4 {
+	text-align: center;
+	font-size: 1rem;
+    font-weight: 600;
+}
+
+.myP {
+	text-align: center;
+	padding-left:15%;
+	padding-right:15%;
+	font-size: 1rem;
+}
+
+.myPa {
+	text-align: left;
+	padding-left:15%;
+	padding-right:15%;
+	font-size: 1rem;
+}
+
+/* Colors */
+/* Root */
+:root {
+    --clr-background: #fffcf8;
+    --clr-background2: #ffe4bf;
+    --clr-primary: #e86500;
+    --clr-text: #0b0d11;
+    --clr-text2: white;
+    --clr-cards: white;
+}
+
+/* Light Mode */ 
+.light-mode {
+    --clr-background: #fefaf4;
+    --clr-background2: #ffe4bf;
+    --clr-primary: #d25b00;
+    --clr-text: #0b0d11;
+    --clr-cards: white;
+}
+
+/* Dark Mode */
+.dark-mode {
+    --clr-background: #171817;
+    --clr-background2: #182f1d;
+    --clr-primary: #75ce88;
+    --clr-text: white;
+    --clr-text2: #0b0d11;
+    --clr-cards: black;
+}
+
+.wrapper-color-switch {
+  display: flex;
+  justify-content: left;
+  padding-left: 30px;
+  padding-top: 10px;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.color-switch {
+    width: 2.5em;
+    height: 1.45em;
+    border-radius: 10em;
+    background: var(--clr-base);
+    border: 2.25px solid var(--clr-primary);
+    position: absolute;
+    cursor: pointer;
+}
+
+.color-switch-toggle {
+    width: 1em;
+    height: 1em;
+    background: var(--clr-primary);
+    position: absolute;
+    border-radius: 10em;
+    top: 0.10em;
+    left: 0.10em;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+
+.color-switch::before {
+    position: absolute;
+    display: inline-block;
+    width: 12em;
+    left: -100em;
+    top: 0.4em;
+}
+
+#input-color-switch:checked ~ label .color-switch-toggle {
+  transform: translatex(1em);
+}
+
+#input-color-switch {
+    display: none;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--clr-background);
+    color: var(--clr-text);
+}
+
+.logo {
+    font-size: 1.5rem;
+    margin: 1rem;
+    font-family: 'Rock 3D', cursive;
+}
+
+.logo a {
+    text-decoration: none;
+    color: var(--clr-text);
+}
+
+.nav-links {
+    height: 100%;
+}
+
+.nav-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: var(--clr-text);
+    padding: 1rem;
+    display: block;
+    font-size: 1rem;
+}
+
+.nav-links li a:hover {
+    color: var(--clr-primary);
+}
+
+#section1 {
+    padding-top: 40px;
+    height: 175px;
+    color: var(--clr-text);
+}
+
+/* Toggle Button */
+.toggle-button {
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: var(--clr-text);
+    border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+    .toggle-button {
+        display: flex;
+    }
+    .nav-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links ul{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-links li{
+        text-align: center;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .nav-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+}
+
+
+/* Start Section */
+.start {
+    width: 100%;
+    height: 30vh;
+    background-position: center top;
+	background-size:cover;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.typing {
+    color: var(--clr-text);
+    width: 100%;
+    height: 50%;  
+    align-items: center;
+    justify-content: center;
+}
+
+.typing h2 {
+    text-align:center;
+	font-size: 2rem;
+    font-weight: 600;
+}
+
+.typing h4 {
+    text-align:center;
+	font-size: 1.5rem;
+}
+
+/* Home Section */
+.home {
+    width: 100%;
+    height: 100vh;
+    margin: 30px auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+/* Cards */
+.row {
+margin: 10px 10px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: var(--clr-cards);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.content img {
+    border-radius: 6px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Filter Buttons */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.btn {
+  border-radius: 10%;
+  outline: none;
+  padding: 12px 16px;
+  background-color: var(--clr-background2);
+  color: var(--clr-text);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--clr-primary);
+  color: var(--clr-text2);
+}
+
+.btn.active {
+  background-color: var(--clr-primary);
+  color: var(--clr-text2);
+}
+
+.card-title {
+	text-align: center;
+	padding-top: 5%;
+	font-size: 2.25vh;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.75vh;
+}
+
+/* Videso */
+iframe {
+    margin: 0 auto;
+    background-color: var(--clr-background);
+    display: block;
+}
+
+/* Footer */
+#made {
+    position: relative; bottom: 0px;
+    background-color: var(--clr-background);
+    text-align: center;
+    padding: 15px;
+}
+
+/* Timeline */
+.design-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr-background);
+    min-height: 100vh;
+    padding: 100px 0;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .design {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .timeline {
+    width: 80%;
+    height: auto;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .timeline-content {
+    padding: 20px;
+    background: var(--clr-background2);
+    border-radius: 5px;
+    color: var(--clr-text);
+    padding: 1.75rem;
+    transition: 0.4s ease;
+    overflow-wrap: break-word !important;
+    margin: 1rem;
+    margin-bottom: 20px;
+    border-radius: 6px;
+  }
+  
+  .timeline-component {
+    margin: 0px 20px 20px 20px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .timeline {
+      display: grid;
+      grid-template-columns: 1fr 3px 1fr;
+    }
+    .timeline-middle {
+      position: relative;
+      background: var(--clr-text);
+      width: 3px;
+      height: 100%;
+    }
+    .main-middle {
+      opacity: 0;
+    }
+    .timeline-circle {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: var(--clr-text);
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+    }
+  }
+
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
+    .content img {
+        border-radius: 6px;
+        display: none;
+    }
+
+    .card-title {
+        text-align: center;
+        padding-top: 5%;
+        font-size: 1.75vh;
+    }
+
+    .subtitle {
+        text-align: center;
+        font-size: 1vh;
+    }
+}
