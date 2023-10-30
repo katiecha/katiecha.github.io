@@ -12,6 +12,12 @@ Within the styles folder, you should see a file called 'stylesheet.css'. Here yo
 Outside of these folders, you should see three files: 1) the 'README.md' which you are looking through now, 2) the 'index.html', and 3) the 'about.html'.
 
 Let's start by looking through the 'index.html' file...
-*****************************************************************************************************************
 
+*****************************************************************************************************************
 ## index.html
+
+*****************************************************************************************************************
+## about.html
+
+*****************************************************************************************************************
+## stylesheet.css
