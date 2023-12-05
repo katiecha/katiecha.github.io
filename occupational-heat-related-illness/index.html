@@ -24,25 +24,13 @@
                 </a>
                 <div class="nav-links">
                     <ul>
-                        <li><a href="#section1">Occurrence</a></li>
-                        <li><a href="#section2">Burden</a></li>
-                        <li><a href="#section3">Determinants</a></li>
-                        <li><a href="#section4">Inequities</a></li>
+                        <li><a href="#section1">Symptoms</a></li>
+                        <li><a href="#section2">Risk Factors</a></li>
+                        <li><a href="#section3">References</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
- 
-        <div class="translate">
-            <div id="google_translate_element"></div>
-        </div>
-
-        <script type="text/javascript">
-            function googleTranslateElementInit() {
-                new google.translate.TranslateElement({pageLanguage: 'pt', includedLanguages: 'en,es'}, 'google_translate_element');
-            };
-        </script>
-        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
         <!--     Light/Dark Mode Container -->
         <div class="wrapper-color-switch">
@@ -52,46 +40,71 @@
             </label>
         </div>
 
+        <!--     Translate Container -->
+        <div class="translate">
+            <div id="google_translate_element"></div>
+        </div>
+
+        <script>
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({pageLanguage: 'pt', includedLanguages: 'en,es'}, 'google_translate_element');
+            };
+        </script>
+        <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+        <span id="element"></span>
         <!--     Typing Animation -->
         <section class="start"></section>
-            <div class="typing">
-                <br><br>
-                <h2>Occupational Heat-Related Illness</h2>
+            <div class="typing" style="height: 50px">
+                <h2>Do you experiece <span class="auto-type"></span>?</h2>
+                <div class="mouse_scroll">
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                    <div>
+                        <span class="m_scroll_arrows unu"></span>
+                        <span class="m_scroll_arrows doi"></span>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <h3>You may be experiencing an <h3 class="myh3">occupational heat-related illness</h3></h3>
             </div>
 
-        <!--     Occurrence -->
+            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+            <script type="text/javascript">
+                var typed = new Typed(".auto-type", {
+                    strings: ["thirst^2000", "heavy sweating^2000", "dizziness^2000", "fainting^2000", "headaches^2000", "nausea^2000"],
+                    typeSpeed: 25,
+                    backSpeed: 25,
+                    loop: true
+                })
+            </script>
+
+        <!--     Symptoms -->
         <section class="home"></section>
-        <div class="container-fluid" id="section1" style="height: 1000px">
-            <h2 class="myH2">Occurrence</h2>
-            <p class="myP">Check out my work!</p>
+        <div id="section1">
+            <h3>What are occupational heat-related illnesses?</h3>
+            <h4>Occupational heat-related illnesses (OHRIs) are </h4>
         </div>
 
-        <!--     Burden -->
+        <!--     Risk Factors -->
         <section class="home"></section>
-        <div class="container-fluid" id="section2" style="height: 500px">
-            <h2 class="myH2">Burden</h2>
-            <p class="myP">Check out my work!</p>
-        </div>
-
-        <!--     Determinants -->
-        <section class="home"></section>
-        <div class="container-fluid" id="section3" style="height: 500px">
-            <h2 class="myH2">Determinants</h2>
-            <p class="myP">Check out my work!</p>
-        </div>
-
-        <!--     Inequities -->
-        <section class="home"></section>
-        <div class="container-fluid" id="section4" style="height: 500px">
-            <h2 class="myH2">Inequities</h2>
-            <p class="myP">Check out my work!</p>
+        <div id="section2">
+            <h3>Are you at risk?</h3>
+            <h4>Anyone can get an OHRI, but there are some factors that increase your risk.</h4>
         </div>
 
         <!--     References -->
         <section class="home"></section>
-        <div class="container-fluid" id="section5" style="height: 500px">
-            <h2 class="myH2">References</h2>
-            <p class="myP">Check out my work!</p>
+        <div id="section3" style="height: 500px">
+            <h3>References</h3>
+            <h4>Reference 1</h4>
+            <h4>Reference 1</h4>
+            <h4>Reference 1</h4>
+            <h4>Reference 1</h4>
+            <h4>Reference 1</h4>
         </div>
 
         <footer id="made">
@@ -99,8 +112,10 @@
                 <br>
                 <br>
                 <br>
+                <br>
+                <br>
                 Made with ❤️ by Katie Chai<br>
-                <a href="mailto:kchai@unc.edu">kchai@unc.edu</a>
+                <a href="mailto:katiechai21@icloud.com">katiechai21@icloud.com</a>
             </p>
         </footer>
 
