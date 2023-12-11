@@ -69,9 +69,83 @@ h4 {
     padding-right: 25vw;
 }
 
+h5 {
+    font-size: 0.5em;
+    text-align: left;
+    padding-left: 25vw;
+    padding-right: 25vw;
+}
+
+b {
+    color: var(--clr-primary);
+}
+
+.accordion {
+    background-color: var(--clr-background);
+    color: var(--clr-text);
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 400px;
+    width: 35vw;
+    padding: 5vh;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 0.75em;
+    transition: 0.4s;
+  }
+  
+.active, .accordion:hover {
+    background-color: var(--clr-primary); 
+    color: var(--clr-text);
+}
+
+.panel {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 400px;
+    width: 35vw;
+    padding: 5vh;
+    padding: 0 18px;
+    background-color: var(--clr-background);
+    overflow: hidden;
+    font-size: 0.75em;
+}
+
 .citation {
     color: grey;
     font-size: 0.5em;
+    padding-top: 0;
+}
+
+.bcontainer {
+    text-align: center;  
+    padding: 5vw;
+}
+
+.bcontainer1 {
+    text-align: center;  
+    padding-top: 2vw;
+}
+
+button {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: var(--clr-primary);
+    color: var(--clr-text);
+    border-style: none;
+}
+
+button:hover {
+    background-color: var(--clr-text);
+    color: var(--clr-background);
 }
 
 /* Footer */

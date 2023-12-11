@@ -71,14 +71,14 @@
                 <br>
                 <br>
                 <br>
-                <h3>You may have an increased risk of developing an <h3 class="myh3">occupational heat-related illness</h3></h3>
-                <img src="images/heat-related-illness.svg" alt="Person with heat related illness" class="center1">
+                <h3>You may be more likely to get <br> a <b>heat-related illness</b> at work.</h3>
+                <img src="images/risk.svg" alt="Hazard sign graphic" class="center1">
             </div>
 
             <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
             <script type="text/javascript">
                 var typed = new Typed(".auto-type", {
-                    strings: ["not have a work visa?^2000", "not have a green card?^2000", "work on a farm or construction site?^2000", "speak Spanish?^2000", "only speak Spanish?^2000"],
+                    strings: ["need a work visa?^2000", "need a green card?^2000", "need insurance?^2000", "work on a farm?^2000", "work on a construction site?^2000", "work in a hot, hazardous environment?^2000", "speak Spanish?^2000", "only speak Spanish?^2000"],
                     typeSpeed: 25,
                     backSpeed: 25,
                     loop: true
@@ -88,12 +88,83 @@
         <!--     Risk Factors -->
         <section class="home"></section>
         <div id="section1">
-            <h3>Are you at risk?</h3>
-            <h4>Anyone can get an OHRI, but some factors increase your risk.</h4>
+            <h3>Check your risk!</h3>
+            <h4>Anyone can develop an occupational heat-related illness (OHRI), but some populations are more at risk --  specifically <b>immigrant workers</b>.<sup>6</sup></h4>
+            <h4>Check out the following determinants (factors) that increase your risk as an immigrant worker:</h4> <br>
+
+
+            <button class="accordion">Do you have health insurance?</button>
+            <div class="panel">
             <br>
+            <p>Immigrant workers (citizen and noncitizen) may face additional OHRI risks because of the United State's strict insurance and medical systems.<sup>6</sup><br><br>
+               For many immigrants, <b>getting health insurance is impossible</b> due to US laws.<sup>6</sup><br><br>
+               <b>30%</b> of noncitizen immigrant workers lack health insurance, while only <b>15%</b> of US citizens lack health insurance.<sup>4</sup><br><br>
+               When migrant workers forgo insurance, they often <b>forgo healthcare</b> as well, and this can worsen OHRI symptoms and outcomes.<sup>6</sup><br><br>
+            </p>
+            </div>
+
+            <button class="accordion">Do you work on a farm or construction site?</button>
+            <div class="panel">
             <br>
+            <p>Many immigrant workers are forced to work <b>dangerous jobs</b> like construction and farming.<sup>6</sup><br><br>
+                These jobs offer <b>less benefits and protections</b> (e.g., overtime pay, healthcare) meant to prevent OHRIs.<sup>6</sup><br><br>
+                This category of job also tends to be <b>seasonal</b>, <b>temporary</b>, or generally <b>unsecure</b>.<sup>6</sup><br><br>
+                The lack of security prevents immigrant workers from reporting cases of OHRI, since the workers may fear <b>job loss</b> or <b>immigration consequences</b> more than potential health risks.<sup>7</sup><br><br>
+            </p>
+            </div>
+
+            <button class="accordion">Do you speak Spanish?</button>
+            <div class="panel">
             <br>
+            <p><b>Language barriers</b> and the confusing US healthcare system can <b>prevent</b> immigrant workers from <b>getting treatment</b> for OHRIs.<sup>6</sup><br><br>
+                Language issues can also <b>prevent</b> immigrant workers from <b>understanding trainings</b> that lower the risk of developing an OHRI.<sup>6</sup><br><br>
+            </p>
+        
+            </div>
+
+            <button class="accordion">Are you an undocumented immigrant?</button>
+            <div class="panel">
             <br>
+            <p><b>Undocumented immigrant</b> face even more challenges that can increase the risk of developing OHRIs.<sup>6</sup><br><br>
+                On the topic of pay, undocumented immigrants are <b>2x more likely</b> to experience wage violations.<sup>6</sup><br><br>
+                This translates to other types of violations -- specifically <b>safety violations</b>.<sup>6</sup><br><br>
+                Fearing possible <b>deportation</b>, undocumented immigrant workers report even fewer cases of OHRI than immigrant workers.<sup>6</sup><br><br>
+                This group also has <b>fewer workplace protections</b> than citizen and noncitizen workers.
+            </p>
+            </div>
+
+
+            <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                panel.style.display = "none";
+                } else {
+                panel.style.display = "block";
+                }
+            });
+            }
+            </script>
+
+            <br>
+            <h4>While many structural issues exist within the United States, the health inequities experienced by immigrant workers can be reduced as OHRI is very <b>preventable</b>.<sup>1</sup><br><br>
+            </h4>   
+            <img src="images/buddy-system.svg" alt="People holding hands graphic" class="center3">
+            <h4>For example, the <b>buddy system*</b> can be used to decrease the number of OHRI cases in a community.</h4>
+            <h5>*The buddy system pairs newer and more experienced workers together to help identify symptoms of HRI in the workplace.</h5>
+            <h4>For more information on OHRI prevention, check out <b>OSHA's resources</b> and <b>prevention tips</b> on heat exposure.</h4>
+            <div class="bcontainer1">
+                <a href="https://www.osha.gov/heat-exposure"> <button>OSHA Resources</button></a>
+            </div>
+            <div class="bcontainer1">
+                <a href="https://www.osha.gov/heat-exposure/prevention"> <button>OSHA Prevention Tips</button></a>
+            </div>
+        
         </div>
 
         <footer id="made">
