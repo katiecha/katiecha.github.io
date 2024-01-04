@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Teko', sans-serif;
     margin: 0;
   }
   
@@ -7,7 +9,7 @@ body {
   .header {
     padding: 280px;
     text-align: center;
-    background: #f36f39ff;
+    background: rgb(10, 48, 10);
     color: white;
   }
   

@@ -15,24 +15,20 @@ Let's start by looking through the 'index.html' file...
 
 *****************************************************************************************************************
 ## lesson0.html
-The <!DOCTYPE html> declaration defines this document to be HTML5
-The <html> element is the root element of an HTML page
-The <head> element contains meta information about the document
-The <title> element specifies a title for the document
-The <meta> element should define the character set to be UTF-8
-The <meta> element with name="viewport" makes the website look good on all devices and screen resolutions
-The <style> element contains the styles for the website (layout/design)
-The <body> element contains the visible page content
-The <h1> element defines a large heading
-The <p> element defines a paragraph
+Start here!
 
-*****************************************************************************************************************
 ## Live Server
-Live Server by Ritwick Dey
+Download Live Server by Ritwick Dey
 
 *****************************************************************************************************************
 ## lesson1.html + stylesheet1.css
-A stylesheet can be used to style HTML code.
+A stylesheet can be used to style HTML code. Try changing the selected color in the stylesheet1.css file.
+
+We are super close to the CATCH website (https://www.catch-inc.com/) right now!
 
 *****************************************************************************************************************
 ## lesson2.html
+Let's change the font of our text!
+
+## Google Fonts
+https://fonts.google.com/
