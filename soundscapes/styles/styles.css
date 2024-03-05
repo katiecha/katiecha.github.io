@@ -8,7 +8,6 @@ body {
     background-color: var(--background);
 }
   
-/*--------------Colors--------------*/
 :root {
     --background: #0b0d11;
     --text-black: black;
@@ -17,8 +16,17 @@ body {
 
 h1 {
     font-family: 'Gaegu', sans-serif;
+    padding: 25px;
 }
 
 p {
     font-family: 'Kosugi Maru', sans-serif;
+    padding: 25px;
+}
+
+iframe {
+    background-color: var(--background);
+    padding: 0%;
+    border: none;
+    border-radius: 25px;
 }
