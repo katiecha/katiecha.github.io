@@ -20,6 +20,7 @@ span {
     color: var(--clr-primary);
 }
 
+/* IMAGES */
 img {
     max-width: 60%;
     max-height: 60%;
@@ -28,6 +29,7 @@ img {
     margin-right: auto;
 }
 
+/* LINKS */
 a {
     text-decoration: none;
     color: var(--clr-text);
@@ -37,42 +39,26 @@ a:hover {
     color: var(--clr-primary);
 }
 
-p {
+/* TEXT */
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+h2 {
     text-align: center;
-    font-weight: 400;
+	font-size: 2rem;
+    font-weight: 600;
 }
 
 h3 {
     text-align: center;
 }
 
-.myH2 {
-	text-align: center;
-	font-size: 2rem;
-    font-weight: 600;
-}
-
-.myH3 {
-	text-align: center;
-	font-size: 1.5rem;
-    font-weight: 500;
-}
-
-.myH4 {
-	text-align: center;
-	font-size: 1rem;
-    font-weight: 600;
-}
-
-.myP {
-	text-align: center;
-	padding-left:15%;
-	padding-right:15%;
-	font-size: 1rem;
-}
-
-.myPa {
-	text-align: left;
+p {
+    text-align: center;
+    font-weight: 400;
+    text-align: center;
 	padding-left:15%;
 	padding-right:15%;
 	font-size: 1rem;
@@ -118,6 +104,7 @@ h3 {
     color: var(--clr-text);
 }
 
+/* LOGO */
 .logo {
     font-size: 1.5rem;
     margin: 1rem;
@@ -129,6 +116,7 @@ h3 {
     color: var(--clr-text);
 }
 
+/* NAV BAR */
 .nav-links {
     height: 100%;
 }
@@ -155,6 +143,7 @@ h3 {
     color: var(--clr-primary);
 }
 
+/* SECTION 1 */
 #section1 {
     padding-top: 40px;
     height: 175px;
@@ -198,7 +187,7 @@ h3 {
 }
 
 
-/* Start Section */
+/* START SECTION */
 .start {
     width: 100%;
     height: 30vh;
@@ -227,19 +216,14 @@ h3 {
 	font-size: 1.5rem;
 }
 
-/* Home Section */
+/* HOME SECTION */
 .home {
     width: 100%;
     height: 100vh;
     margin: 30px auto;
 }
 
-h1 {
-    font-size: 50px;
-    word-break: break-all;
-}
-
-/* Cards */
+/* CARDS */
 .row {
 margin: 10px 10px;
 }
@@ -264,7 +248,7 @@ margin: 10px 10px;
   clear: both;
 }
 
-/* Content */
+/* CARD CONTENT */
 .content {
   background-color: var(--clr-cards);
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -281,7 +265,7 @@ margin: 10px 10px;
   display: block;
 }
 
-/* Filter Buttons */
+/* FILTER BUTTONS */
 .center {
   display: flex;
   justify-content: center;
@@ -319,14 +303,7 @@ margin: 10px 10px;
     font-size: 1.75vh;
 }
 
-/* Videso */
-iframe {
-    margin: 0 auto;
-    background-color: var(--clr-background);
-    display: block;
-}
-
-/* Footer */
+/* FOOTER */
 #made {
     position: relative; bottom: 0px;
     background-color: var(--clr-background);
@@ -334,7 +311,7 @@ iframe {
     padding: 15px;
 }
 
-/* Timeline */
+/* TIMELINE */
 .design-section {
     display: flex;
     flex-direction: column;
