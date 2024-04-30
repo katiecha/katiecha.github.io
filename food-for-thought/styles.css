@@ -141,6 +141,54 @@ body {
   padding-right: 10%;
 }
 
+/*--------------Reflection--------------*/
+.myReflection {
+  text-align: center;
+}
+
+.myReflection h1 {
+  font-size: 7vh;
+  padding: 2.5%;
+  color: var(--text-black);
+}
+
+.myReflection h2 {
+  font-size: 2vh;
+  font-weight: 400;
+  padding-bottom: 10%;
+  color: var(--button-color);
+}
+
+.myReflection h3 {
+  padding-top: 10%;
+  font-size: 3vh;
+  font-weight: 400;
+}
+
+.myReflection img {
+  width: 75vw;
+}
+
+.myReflection p {
+  font-weight: 400;
+  font-size: 2vh;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: left;
+}
+
+.myReflection li {
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 10%;
+  list-style-type: none;
+}
+
+#worksCited {
+  text-align: center;
+  font-weight: bold;
+}
+
 /*--------------About--------------*/
 .myAbout {
   background-color: var(--accent-light);
