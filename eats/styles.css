@@ -27,6 +27,20 @@ a img {
     outline-style: none;
 }
 
+a p {
+    font-size: 40;
+}
+
+.bottom {
+    height: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.typing {
+    color: #fff;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
