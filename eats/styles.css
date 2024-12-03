@@ -152,5 +152,6 @@ a img {
     .card {
         width: 75%;
         max-width: 90%;
+        padding: 100px 50px 100px 50px;
     }
 }
