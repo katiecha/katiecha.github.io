@@ -1,0 +1,24 @@
+.header {
+    background-color: magenta;
+    height: 25vh;
+    display: block;
+}
+
+.main {
+    background-color: yellow;
+    height: 50vh;
+    vertical-align: middle;
+}
+
+.footer {
+    background-color: greenyellow;
+    height: 25vh;
+}
+
+img {
+    height: 50%;
+}
+
+p {
+
+}
