@@ -121,6 +121,15 @@ a img {
     color: #C60C31;
 }
 
+.card.flipped .face.face1 {
+    transform: translateY(0);
+    background: #C60C31;
+}
+
+.card.flipped .face.face2 {
+    transform: translateY(0);
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
     .container {
@@ -138,7 +147,7 @@ a img {
         align-items: center;
     }
     .card {
-        width: 90%;
-        max-width: 100%;
+        width: 75%;
+        max-width: 90%;
     }
 }
