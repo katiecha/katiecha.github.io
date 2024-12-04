@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>COMP 380 Simulation</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="typing">
+        <h1>Navigate this page... <br><span class="auto-type"></span></h1>
+        <button id="start-button" class="button">Start</button>
+    </div>
+
+
+    <div class="navigation-buttons hidden">
+        <a href="color-simulation.html" class="button back">Back</a>
+        <a href="#" class="button continue">Continue</a>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["without sound"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        });
+    </script>
+</body>
+</html>

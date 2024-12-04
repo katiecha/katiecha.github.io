@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>COMP 380 Simulation</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="typing">
+        <h1>Navigate this page... <br><span class="auto-type"></span></h1>
+        <p>*use tab or shift+tab to move between elements*</p>
+        <button id="start-button" class="button">Start</button>
+    </div>
+
+    <main id="content">
+        <section id="section1" tabindex="0">
+            <h2>Section 1</h2>
+        </section>
+
+        <section id="section2" tabindex="0">
+            <h2>Section 2</h2>
+        </section>
+
+        <section id="section3" tabindex="0">
+            <h2>Section 3</h2>
+        </section>
+    </main>
+
+    <div class="navigation-buttons">
+        <a href="color-simulation.html" class="button back">Back</a>
+        <a href="sound-simulation.html" class="button continue">Continue</a>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["without sight"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        });
+
+        document.getElementById("start-button").addEventListener("click", function() {
+            const content = document.getElementById("content");
+            const navButtons = document.querySelector(".navigation-buttons");
+
+            if (content.classList.contains("hidden")) {
+                content.classList.remove("hidden");
+                navButtons.classList.remove("hidden");
+                this.textContent = "Start";
+            } else {
+                content.classList.add("hidden");
+                navButtons.classList.add("hidden");
+                this.textContent = "End";
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>COMP 380 Simulation</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles.css" rel="stylesheet">
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        <div class="typing">
+            <h1>Navigate this page... <br><span class="auto-type"></span></h1>
+        </div>
+
+        <select id="color-vision">
+            <option value="default">Full-color vision</option>
+            <option value="red-green">Red-green color deficiency</option>
+            <option value="complete">Monochromacy</option>
+        </select>
+
+        <div class="navigation-buttons">
+            <a href="sight-simulation.html" class="button continue">Continue</a>
+          </div>
+
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed(".auto-type", {
+                strings: ["without color"],
+                typeSpeed: 100,
+                backSpeed: 100,
+                loop: true
+            })
+        </script>
+    </body>
+</html>
