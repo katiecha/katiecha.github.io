@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Letters to {insert name}</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+        <link href="assets/css/main.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <main class="paper">
+            <p>
+            Hello {insert name},<br><br>
+
+            I miss you! I made you this playlist so you won’t forget about me.
+            <br><br>
+
+            Let me know what you think!
+            <br><br>
+
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6dgfxTJbsoE8bJTmhH92f3?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <br><br>
+
+            See you in <span id="countdown">…</span> days 💜
+            <br><br>
+
+            사랑해요, {insert name}
+            </p>
+        </main>
+
+        <script>
+            (() => {
+            const targetDate = new Date('2025-10-10T00:00:00');  // change here!!! (YYYY‑MM‑DD)
+
+            const MS_PER_DAY = 24 * 60 * 60 * 1000;
+            const $out = document.getElementById('countdown');
+
+            function render() {
+                const now   = new Date();
+                const diff  = targetDate - now;
+                const days  = Math.max(0, Math.ceil(diff / MS_PER_DAY));
+
+                $out.textContent = days.toLocaleString();
+            }
+
+            render();
+            setInterval(render, 1000);
+            })();
+        </script>
+    </body>
+</html>
