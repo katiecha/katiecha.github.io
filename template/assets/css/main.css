@@ -138,15 +138,6 @@ body {
   border-radius:50%;
 }
 
-.envelope:hover .top {
-  transform: rotateX(160deg);
-}
-
-.envelope:hover .letter {
-  transform: translateY(-100px);
-  z-index:2;
-}
-
 /* paper */
 .paper {
   max-width: 42rem;
@@ -162,4 +153,20 @@ body {
 
   line-height: 1.55;
   font-size: 1.1rem;
+}
+
+/* phone stuff */
+
+@media (max-width: 600px) {
+  .paper {
+    width: 90vw;
+    max-width: none;
+    margin: 6vh auto 4vh;
+    padding: clamp(1.25rem, 5vw, 2rem);
+    font-size: 1rem;
+  }
+
+  .paper h1,
+  .paper h2 { font-size: 1.35rem; }
+
 }

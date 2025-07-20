@@ -26,5 +26,18 @@
             <div class="top"></div>
             <div class="shadow"></div>
         </div>
+
+        <script>
+          window.addEventListener('load', () => {
+            setTimeout(() => {
+              const top    = document.querySelector('.top');
+              const letter = document.querySelector('.letter');
+
+              top.style.transform    = 'rotateX(160deg)';
+              letter.style.transform = 'translateY(-100px)';
+              letter.style.zIndex    = '2';
+            }, 500);
+          });
+</script>
     </body>
   </html>
